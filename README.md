@@ -13,39 +13,39 @@ The People
 * [JPabloL](https://github.com/JPabloL)
 
 
-Setting Up With Git
+File Guidelines
 ---------------
 
-**Step One:** Install Git on your computer!
+**1.** Fill up spaces with dashes. Leave only main words, remove all else.
+	Example: Libros y Documentos	= libros-documentos.php
+									≠ librosDocumentos.php
+									≠ libros_documentos.php
+									≠ libros-y-documentos.php
 
-* [Mac](https://help.github.com/articles/set-up-git#platform-mac)
-* [Windows](https://help.github.com/articles/set-up-git#platform-windows)
+**2.** Keep everything in the root folder except for images, includes, database conection, stylesheets and javascript.
 
-**Step Two:** Set up permissions!
 
-* [Mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
-* [Windows](https://help.github.com/articles/generating-ssh-keys#platform-windows)
+Coding Guidelines
+---------------
 
-**Step Three:** Download the Anthill code!
+**One:** Open a template.
 
-1. Open up Terminal (Mac) or Git Bash (Windows).
+1. Open a file named **template.php** or **template-responsive.php**
 
-2. Navigate to your desired project folder in your htdocs.
-  
-  An example for Mac:
+2. Save As: *name-of-file*.php
 
-  ```
-  cd ~/Sites/
-  ```
+3. You are now ready to work in the new file.
 
-3. Use the following in the command line to download the project:
-  
-  ```
-  git clone git@github.com:andyosuna/mortonsubastas.com.git
-  ```
-  
-There should be a folder named **mortonsubastas.com** in your localhost directory. You now have access to the project on your computer to make changes.
+**DO NOT MODIFY THE TEMPLATES!**
 
+
+**Two:** 
+
+1
+
+**Step Three:** 
+
+*Empty*
 
 
 Usernames & Passwords
