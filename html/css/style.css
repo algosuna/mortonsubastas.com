@@ -1,0 +1,97 @@
+/**************************************************************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+
+Project: Morton Casa de Subastas
+URL: http://www.mortonsubastas.com
+Designer and Developer: Andy Osuna
+URL: http://andyosuna.com
+Description: Redesign of website for Morton Casa de Subastas.
+Version: 1.0
+May, 2013
+                 _                                                        
+  __ _ _ __   __| |_   _  ___  ___ _   _ _ __   __ _   ___ ___  _ __ ___  
+ / _` | '_ \ / _` | | | |/ _ \/ __| | | | '_ \ / _` | / __/ _ \| '_ ` _ \ 
+| (_| | | | | (_| | |_| | (_) \__ \ |_| | | | | (_| || (_| (_) | | | | | |
+ \__,_|_| |_|\__,_|\__, |\___/|___/\__,_|_| |_|\__,_(_)___\___/|_| |_| |_|
+                   |___/                                                  
+
+***************************************************************************
+***************************************************************************
+***************************************************************************
+**************************************************************************/
+
+
+/********************************************************
+****************** Table of Contents ********************
+
+0. - Structure: Additions for features.
+	0.1 - Sticky Footer
+
+1. - General: Stuff that can be used throughout the site.
+	1.1 - Typography
+
+2. - Base: Stuff consistent around like footer/header.
+	2.1 - Header
+	2.2 - Footer
+
+*********************************************************
+********************************************************/
+
+
+/*
+
+0. - Structure
+
+*/
+
+/* 0.1 - Sticky Footer */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-bottom: 180px;
+}
+
+
+/*
+
+1. - General
+
+*/
+
+/* 1.1 - Typography */
+p.large {
+	font-size: 18px; /* larger font size for more important paragraphs */
+}
+
+
+/*
+
+2. - Base
+
+*/
+
+/* 2.1 - Header */
+h1#logo {
+	background-image: url(../images/logo.png);
+}
+
+
+
+
+
+
+
+/* 2.2 - Footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 180px;
+	background-color: rgb(65, 64, 66);
+	color: rgb(167, 169, 172);
+}
+
