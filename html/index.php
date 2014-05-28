@@ -82,11 +82,11 @@
 		</div><!-- end .container-fluid -->
 	</section><!-- end #catalogs -->
 
-	<footer>
-		<div class="container-fluid">
+	<footer class="container-fluid">
+		<div>
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
-					<ul>
+					<ul id="footer-links">
 						&copy;2014 Morton Casa de Subastas<br />
 						<li class="hidden-xs"><a href="#">T&eacute;rminos y Condiciones</a></li>
 						<li class="hidden-xs"><a href="#">Aviso de Privacidad</a></li>
@@ -100,7 +100,7 @@
 					<a href="#"><img src="images/logo-footer.png" alt="Morton Casa de Subastas" title="Morton Casa de Subastas"></a>
 				</div><!-- end .col-md-4 -->
 				<div class="col-md-4 col-sm-6">
-					<ul class="social-media">
+					<ul id="social-media">
 						<li><a href="#">Facebook</a></li>
 						<li><a href="#">Twitter</a></li>
 						<li><a href="#">YouTube</a></li>

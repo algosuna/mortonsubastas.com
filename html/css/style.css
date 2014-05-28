@@ -28,6 +28,7 @@ May, 2013
 
 0. - Structure: Additions for features.
 	0.1 - Sticky Footer
+	0.2 - Typography Corrections
 
 1. - General: Stuff that can be used throughout the site.
 	1.1 - Typography
@@ -36,7 +37,8 @@ May, 2013
 	2.1 - Header
 	2.2 - Header Responsiveness
 	2.3 - Footer
-	2.4 - Footer Responsiveness
+	2.4 - Footer Social Media
+	2.5 - Footer Responsiveness
 
 3. - Homepage:
 	3.1 - Videos
@@ -60,6 +62,8 @@ html {
 body {
 	margin-bottom: 180px;
 }
+
+/* 0.2 - Typography Corrections */
 h2 {
 	text-align: center;
 }
@@ -88,7 +92,7 @@ header {
 	width: 100%;
 	height: 150px;
 	padding: 50px;
-	background-color: black; /* REMOVE! for development only */
+	background-color: black; /* REMOVE for development only */
 }
 #logo a {
 	text-indent: -9999px;
@@ -135,47 +139,26 @@ nav a:last-child {
 	header nav {
 		font-size: 16px;
 	}
-
 }
-@media (min-width: 878px) and (max-width: 954px) {
+@media (max-width: 954px) {
 	header nav {
 		font-size: 14px;
 	}
 }
-@media (min-width: 830px) and (max-width: 877px) {
+@media (max-width: 877px) {
 	header {
 		padding: 20px;
 		height: 90px;
-	}
-	#quick-links {
-		visibility: hidden;
-	}
-	header nav {
-		font-size: 14px;
-	}
-}
-@media (min-width: 820px) and (max-width: 829px) {
-	header {
-		padding: 20px;
-		height: 90px;
-	}
-	header nav {
-		font-size: 14px;
 	}
 	#quick-links {
 		visibility: hidden;
 	}
 }
 @media (max-width: 819px) {
-	header {
-		padding: 20px;
-		height: 90px;
-	}
-	header nav,
-	#quick-links {
+	header nav {
 		visibility: hidden;
 	}
-	/* add the menu for mobile */
+	/* TODO 27/05/14: add the menu for mobile */
 }
 
 /* 2.3 - Footer */
@@ -187,17 +170,106 @@ footer {
 	background-color: rgb(65, 64, 66);
 	color: rgb(167, 169, 172);
 }
+#footer-links {
+	list-style: none;
+	padding: 20px 0 0 30px;
+}
+footer .row div:nth-child(2) {
+	padding-top:30px;
+}
 
-/* 2.4 - Footer Responsiveness */
+/* 2.4 - Footer Social Media */
+#social-media {
+	display: block;
+	width: 168px;
+	margin: 0 auto;
+	padding: 45px 0 0 0;
+}
+#social-media li {
+	display: inline;
+}
+#social-media li a {
+	display: block;
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin: 5px 10px;
+	text-indent: -9999px;
+	text-decoration: none;
+	background-repeat: no-repeat; /* BUG fix */
+}
+#social-media li:nth-of-type(1) a,
+#social-media li:nth-of-type(1) a:link,
+#social-media li:nth-of-type(1) a:visited {
+	background-image: url(../images/fb.png);
+}
+#social-media li:nth-of-type(1) a:hover,
+#social-media li:nth-of-type(1) a:focus,
+#social-media li:nth-of-type(1) a:active {
+	background-image: url(../images/fb-hvr.png);
+}
+#social-media li:nth-of-type(2) a,
+#social-media li:nth-of-type(2) a:link,
+#social-media li:nth-of-type(2) a:visited {
+	background-image: url(../images/tt.png);
+}
+#social-media li:nth-of-type(2) a:hover,
+#social-media li:nth-of-type(2) a:focus,
+#social-media li:nth-of-type(2) a:active {
+	background-image: url(../images/tt-hvr.png);
+}
+#social-media li:nth-of-type(3) a,
+#social-media li:nth-of-type(3) a:link,
+#social-media li:nth-of-type(3) a:visited {
+	background-image: url(../images/yt.png);
+}
+#social-media li:nth-of-type(3) a:hover,
+#social-media li:nth-of-type(3) a:focus,
+#social-media li:nth-of-type(3) a:active {
+	background-image: url(../images/yt-hvr.png);
+}
+#social-media li:nth-of-type(4) a,
+#social-media li:nth-of-type(4) a:link,
+#social-media li:nth-of-type(4) a:visited {
+	background-image: url(../images/pt.png);
+}
+#social-media li:nth-of-type(4) a:hover,
+#social-media li:nth-of-type(4) a:focus,
+#social-media li:nth-of-type(4) a:active {
+	background-image: url(../images/pt-hvr.png);
+}
+#social-media li:nth-of-type(5) a,
+#social-media li:nth-of-type(5) a:link,
+#social-media li:nth-of-type(5) a:visited {
+	background-image: url(../images/ig.png);
+}
+#social-media li:nth-of-type(5) a:hover,
+#social-media li:nth-of-type(5) a:focus,
+#social-media li:nth-of-type(5) a:active {
+	background-image: url(../images/ig-hvr.png);
+}
+#social-media li:nth-of-type(4) a {
+	margin-left: 38px;
+}/* targets the 4th social media icon, makes bottom line appear centered. */
+
+
+/* 2.5 - Footer Responsiveness */
 @media (max-width: 768px) { 
 	footer {
 		text-align: center;
 	}
-	footer ul li {
+	#footer-links li {
 		display: inline;
 	}
-	footer ul li a {
+	#footer-links li a {
 		margin-right: 10px;
+	}
+	#social-media {
+		width: 280px;
+		padding: 0px;
+	}
+	#social-media li a {
+		margin: 30px 10px 0 10px !important;
 	}
 }
 
@@ -239,5 +311,3 @@ section#catalogs .cat a {
 	margin: 5px auto 20px;
 	text-align: center;
 }
-
-
