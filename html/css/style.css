@@ -34,7 +34,13 @@ May, 2013
 
 2. - Base: Stuff consistent around like footer/header.
 	2.1 - Header
-	2.2 - Footer
+	2.2 - Header Responsiveness
+	2.3 - Footer
+	2.4 - Footer Responsiveness
+
+3. - Homepage:
+	3.1 - Videos
+	3.2 - Catalogs
 
 *********************************************************
 ********************************************************/
@@ -53,6 +59,9 @@ html {
 }
 body {
 	margin-bottom: 180px;
+}
+h2 {
+	text-align: center;
 }
 
 
@@ -75,17 +84,101 @@ p.large {
 */
 
 /* 2.1 - Header */
-h1#logo {
+header {
+	width: 100%;
+	height: 150px;
+	padding: 50px;
+	background-color: black; /* REMOVE! for development only */
+}
+#logo a {
+	text-indent: -9999px;
+	display: block;
+	width: 275px;
+	height: 50px;
 	background-image: url(../images/logo.png);
+	cursor: pointer;
+}
+nav {
+	font-size: 18px;
+	margin-top: 10px;
+}
+nav a {
+	padding: 10px;
+}
+header a,
+header a:link,
+header a:visited {
+	color: rgb(204, 204, 204);
+}
+header a:hover,
+header a:focus,
+header a:active {
+	color: rgb(256, 256, 256);
+}
+header a:active {
+	text-decoration: none;
+}
+nav a:last-child {
+	padding-right: 0;
+}
+#quick-links {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+#quick-links a:first-child {
+	margin-right: 20px;
 }
 
+/* 2.2 - Header Responsiveness */
+@media (min-width: 955px) and (max-width: 998px) {
+	header nav {
+		font-size: 16px;
+	}
 
+}
+@media (min-width: 878px) and (max-width: 954px) {
+	header nav {
+		font-size: 14px;
+	}
+}
+@media (min-width: 830px) and (max-width: 877px) {
+	header {
+		padding: 20px;
+		height: 90px;
+	}
+	#quick-links {
+		visibility: hidden;
+	}
+	header nav {
+		font-size: 14px;
+	}
+}
+@media (min-width: 820px) and (max-width: 829px) {
+	header {
+		padding: 20px;
+		height: 90px;
+	}
+	header nav {
+		font-size: 14px;
+	}
+	#quick-links {
+		visibility: hidden;
+	}
+}
+@media (max-width: 819px) {
+	header {
+		padding: 20px;
+		height: 90px;
+	}
+	header nav,
+	#quick-links {
+		visibility: hidden;
+	}
+	/* add the menu for mobile */
+}
 
-
-
-
-
-/* 2.2 - Footer */
+/* 2.3 - Footer */
 footer {
 	position: absolute;
 	bottom: 0;
@@ -94,4 +187,57 @@ footer {
 	background-color: rgb(65, 64, 66);
 	color: rgb(167, 169, 172);
 }
+
+/* 2.4 - Footer Responsiveness */
+@media (max-width: 768px) { 
+	footer {
+		text-align: center;
+	}
+	footer ul li {
+		display: inline;
+	}
+	footer ul li a {
+		margin-right: 10px;
+	}
+}
+
+
+/*
+
+3. - Homepage
+
+*/
+
+/* 3.1 - Video */
+section#video {
+	border-bottom: 2px solid rgb(167, 169, 172);
+	padding-bottom: 50px;
+}
+section#video {
+	margin: 25px 0;
+}
+section#video h2 {
+	margin-bottom: 40px;
+}
+
+/* 3.2 - Catalogs */
+section#catalogs {
+	padding: 5px 0 25px 0;
+}
+section#catalogs h2 {
+	margin-bottom: 40px;
+}
+section#catalogs .cat img {
+	display: block;
+	width: 281px;
+	height: 364px;
+	margin: 0 auto;
+}
+section#catalogs .cat a {
+	display: block;
+	width: 281px;
+	margin: 5px auto 20px;
+	text-align: center;
+}
+
 
