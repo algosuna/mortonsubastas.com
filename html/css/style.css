@@ -168,6 +168,11 @@ nav a:last-child {
 .scrolled #quick-links {
 	visibility: hidden;
 }
+.scrolled ~ #content {
+	position: relative;
+	top: 150px; /* BUG fix */
+	margin-bottom: 150px; /* BUG fix */
+}
 
 /* 2.3 - Header Responsiveness */
 @media (min-width: 955px) and (max-width: 998px) {
@@ -187,6 +192,10 @@ nav a:last-child {
 	}
 	#quick-links {
 		visibility: hidden;
+	}
+	.scrolled ~ #content {
+		top: 90px; /* BUG fix */
+		margin-bottom: 90px; /* BUG fix */
 	}
 }
 @media (max-width: 819px) {
@@ -212,6 +221,9 @@ footer {
 footer .row div:nth-child(2) {
 	padding-top:30px;
 } /* adds a top padding to the morton footer logo */
+.scrolled ~ footer {
+	bottom: -150px; /* BUG fix */
+}
 
 /* 2.5 - Footer Social Media */
 #social-media {
@@ -289,6 +301,11 @@ footer .row div:nth-child(2) {
 
 
 /* 2.6 - Footer Responsiveness */
+@media (max-width: 877px) {
+	.scrolled ~ footer {
+		bottom: -60px; /* BUG fix */
+	}
+}
 @media (max-width: 768px) { 
 	footer {
 		text-align: center;
