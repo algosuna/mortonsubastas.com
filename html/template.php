@@ -15,7 +15,11 @@
 		<img src="images/dep-arte-moderno.jpg">
 	</section>
 
-	
+	<div id="content">
+
+		<!-- your code here! -->
+
+	</div><!-- end #content -->
 
 	<?php include 'php/include-footer.php'; ?>
 

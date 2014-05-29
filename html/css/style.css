@@ -44,13 +44,12 @@ May, 2013
 3. - Homepage: Styles exclusive to the homepage.
 	3.1 - Slider
 	3.2 - Sections
-	3.3 - Videos
-	3.4 - Catalogs
-	3.5 - Homepage Responsiveness
+	3.3 - Homepage Responsiveness
 
 4. - Content: Styles shared by the content pages.
 	4.1 - Banner
 	4.2 - Banner Responsiveness
+	4.3 - Sections
 
 *********************************************************
 ********************************************************/
@@ -72,6 +71,13 @@ body {
 }
 
 /* 0.2 - Typography Corrections */
+h1 {
+	color: rgb(167, 169, 172);
+	margin: 0px;
+	padding: 0px;
+	padding-top: 50px;
+}
+h1,
 h2 {
 	text-align: center;
 }
@@ -93,6 +99,9 @@ hr {
 /* 1.1 - Typography */
 p.large {
 	font-size: 18px; /* larger font size for more important paragraphs */
+}
+h2.align-left {
+	text-align: left;
 }
 
 
@@ -372,11 +381,6 @@ footer .row div:nth-child(2) {
 #catalogs h2 {
 	margin: 0 0 40px 0;
 }
-
-/* 3.3 - Video */
-
-
-/* 3.4 - Catalogs */
 #catalogs .cat img {
 	display: block;
 	width: 281px;
@@ -390,7 +394,7 @@ footer .row div:nth-child(2) {
 	text-align: center;
 }
 
-/* 3.5 - Homepage Responsiveness */
+/* 3.3 - Homepage Responsiveness */
 @media screen and (orientation: portrait) {
 	#slider img {
 		min-width: 90%;
@@ -438,7 +442,7 @@ footer .row div:nth-child(2) {
 			transform: translate(-50%, -50%);
 }
 #banner ~ #content {
-	margin-top: 300px;
+	margin-top: 150px;
 	background-color: rgb(255, 255, 255);
 }
 
@@ -454,4 +458,10 @@ footer .row div:nth-child(2) {
 	}
 }
 
-
+/* 4.3 - Sections */
+.cont {
+	padding: 50px;
+}
+.cont h2 {
+	margin: 0 0 40px 0;
+}

@@ -1,5 +1,8 @@
 <header>
-	<div id="logo" class="pull-left"><a href="/">Morton Casa de Subastas</a></div>
+	<div id="logo" class="pull-left">
+		<a href="/">Morton Casa de Subastas</a>
+	</div><!-- end #logo -->
+
 	<nav class="pull-right">
 		<a href="#">Inicio</a>
 		<a href="#">Subastas</a>
