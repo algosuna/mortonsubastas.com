@@ -35,16 +35,18 @@ May, 2013
 
 2. - Base: Stuff consistent around like footer/header.
 	2.1 - Header
-	2.2 - Header Responsiveness
-	2.3 - Footer
-	2.4 - Footer Social Media
-	2.5 - Footer Responsiveness
+	2.2 - Header Scrolled
+	2.3 - Header Responsiveness
+	2.4 - Footer
+	2.5 - Footer Social Media
+	2.6 - Footer Responsiveness
 
 3. - Homepage:
 	3.1 - Slider
 	3.2 - Sections
 	3.3 - Videos
 	3.4 - Catalogs
+	3.5 - Homepage Responsiveness
 
 *********************************************************
 ********************************************************/
@@ -144,7 +146,30 @@ nav a:last-child {
 	margin-right: 20px;
 }
 
-/* 2.2 - Header Responsiveness */
+/* 2.2 - Header Scrolled */
+.scrolled {
+	height: 60px;
+	padding: 15px;
+	background-color: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	z-index:10;
+}
+.scrolled nav {
+	margin-top: 3px;
+	font-size: 14px
+}
+.scrolled #logo a {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 165px;
+	height: 30px;
+}
+.scrolled #quick-links {
+	visibility: hidden;
+}
+
+/* 2.3 - Header Responsiveness */
 @media (min-width: 955px) and (max-width: 998px) {
 	header nav {
 		font-size: 16px;
@@ -171,7 +196,7 @@ nav a:last-child {
 	/* TODO 27/05/14: add the menu for mobile */
 }
 
-/* 2.3 - Footer */
+/* 2.4 - Footer */
 footer {
 	position: absolute;
 	bottom: 0;
@@ -188,7 +213,7 @@ footer .row div:nth-child(2) {
 	padding-top:30px;
 } /* adds a top padding to the morton footer logo */
 
-/* 2.4 - Footer Social Media */
+/* 2.5 - Footer Social Media */
 #social-media {
 	display: block;
 	width: 168px;
@@ -263,7 +288,7 @@ footer .row div:nth-child(2) {
 }/* targets the 4th social media icon, makes bottom line appear centered. */
 
 
-/* 2.5 - Footer Responsiveness */
+/* 2.6 - Footer Responsiveness */
 @media (max-width: 768px) { 
 	footer {
 		text-align: center;
@@ -290,42 +315,34 @@ footer .row div:nth-child(2) {
 
 */
 
-/* 3.1 - Slider * /
+/* 3.1 - Slider */
 #slider {
-	border: 1px solid red; / * REMOVE for development only * /
-	/ *position: relative;
-	top: -150;
+	position: fixed;
+	top: 0;
+	z-index: -1;
 	width: 100%;
-	height: 100%;* /
-	z-index: -10;
-	position: absolute; 
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height: auto; 
-    width: auto;
+	height: 100%;
 }
 #slider img {
-	width: 100%;
-	height: auto;
- / * position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;* /
-	
+	position: absolute;
+	min-width: 100%;
+	top: 10%;
+	left: 10%;
 }
-	/ *background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
-}*/
+#slider img:empty{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		 -o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+}
+#content {
+	margin-top: 79vh;
+	background-color: rgb(255, 255, 255);
+
+}
 
 /* 3.2 - Sections */
 #video,
@@ -352,4 +369,21 @@ footer .row div:nth-child(2) {
 	width: 281px;
 	margin: 5px auto 20px;
 	text-align: center;
+}
+
+/* 3.5 - Homepage Responsiveness */
+@media screen and (orientation: portrait) {
+	#slider img {
+		min-width: 90%;
+	}
+}
+@media screen and (orientation: landscape) {
+	#slider img {
+		min-height: 90%;
+	}
+}
+@media (max-width: 877px) {
+	#content {
+		margin-top: 88vh;
+	}
 }
