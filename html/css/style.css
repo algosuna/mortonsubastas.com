@@ -129,8 +129,26 @@ nav {
 	font-size: 18px;
 	margin-top: 10px;
 }
-nav a {
+nav > ul {
+	margin: 0;
+	padding: 0;
+}
+nav > ul > li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
 	padding: 10px;
+}
+nav ul.dropdown-menu > li > a,
+nav ul.dropdown-menu > li > a:link,
+nav ul.dropdown-menu > li > a:visited {
+	color: rgb(140, 159, 29);
+}
+nav ul.dropdown-menu > li > a:hover,
+nav ul.dropdown-menu > li > a:focus,
+nav ul.dropdown-menu > li > a:active {
+	color: rgb(193, 216, 47);
+	text-decoration: underline;
 }
 header a,
 header a:link,
@@ -145,8 +163,16 @@ header a:active {
 header a:active {
 	text-decoration: none;
 }
-nav a:last-child {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #fff;
+}
+
+nav > ul > li:last-child {
 	padding-right: 0;
+}
+nav > ul > li.dropdown:hover ul.dropdown-menu {
+	display: block;
 }
 #quick-links {
 	position: absolute;
@@ -167,8 +193,11 @@ nav a:last-child {
 	z-index:10;
 }
 .scrolled nav {
-	margin-top: 3px;
+	margin: 0;
 	font-size: 14px
+}
+.scrolled nav > ul > li {
+	padding-top: 5px;
 }
 .scrolled #logo a {
 	background-size: 100%;
@@ -259,52 +288,52 @@ footer .row div:nth-child(2) {
 #social-media li:nth-of-type(1) a,
 #social-media li:nth-of-type(1) a:link,
 #social-media li:nth-of-type(1) a:visited {
-	background-image: url(../images/fb.png);
+	background-image: url(../images/social/fb.png);
 }
 #social-media li:nth-of-type(1) a:hover,
 #social-media li:nth-of-type(1) a:focus,
 #social-media li:nth-of-type(1) a:active {
-	background-image: url(../images/fb-hvr.png);
+	background-image: url(../images/social/fb-hvr.png);
 }
 #social-media li:nth-of-type(2) a,
 #social-media li:nth-of-type(2) a:link,
 #social-media li:nth-of-type(2) a:visited {
-	background-image: url(../images/tt.png);
+	background-image: url(../images/social/tt.png);
 }
 #social-media li:nth-of-type(2) a:hover,
 #social-media li:nth-of-type(2) a:focus,
 #social-media li:nth-of-type(2) a:active {
-	background-image: url(../images/tt-hvr.png);
+	background-image: url(../images/social/tt-hvr.png);
 }
 #social-media li:nth-of-type(3) a,
 #social-media li:nth-of-type(3) a:link,
 #social-media li:nth-of-type(3) a:visited {
-	background-image: url(../images/yt.png);
+	background-image: url(../images/social/yt.png);
 }
 #social-media li:nth-of-type(3) a:hover,
 #social-media li:nth-of-type(3) a:focus,
 #social-media li:nth-of-type(3) a:active {
-	background-image: url(../images/yt-hvr.png);
+	background-image: url(../images/social/yt-hvr.png);
 }
 #social-media li:nth-of-type(4) a,
 #social-media li:nth-of-type(4) a:link,
 #social-media li:nth-of-type(4) a:visited {
-	background-image: url(../images/pt.png);
+	background-image: url(../images/social/pt.png);
 }
 #social-media li:nth-of-type(4) a:hover,
 #social-media li:nth-of-type(4) a:focus,
 #social-media li:nth-of-type(4) a:active {
-	background-image: url(../images/pt-hvr.png);
+	background-image: url(../images/social/pt-hvr.png);
 }
 #social-media li:nth-of-type(5) a,
 #social-media li:nth-of-type(5) a:link,
 #social-media li:nth-of-type(5) a:visited {
-	background-image: url(../images/ig.png);
+	background-image: url(../images/social/ig.png);
 }
 #social-media li:nth-of-type(5) a:hover,
 #social-media li:nth-of-type(5) a:focus,
 #social-media li:nth-of-type(5) a:active {
-	background-image: url(../images/ig-hvr.png);
+	background-image: url(../images/social/ig-hvr.png);
 }
 #social-media li:nth-of-type(4) a {
 	margin-left: 38px;
@@ -464,4 +493,51 @@ footer .row div:nth-child(2) {
 }
 .cont h2 {
 	margin: 0 0 40px 0;
+}
+.cont > img {
+	margin: 0 0 50px 50px;
+}
+
+/* 4.4 - Staff */
+.staff {
+	display: block;
+	width: 50%;
+	float: left;
+	padding: 25px;
+
+}
+.staff:nth-child(odd) {
+	padding-right: 0;
+}
+.staff:nth-child(even) {
+	padding-left: 0;
+}
+.staff-box {
+	border: 1px solid rgb(167, 169, 172);
+	width: 100%;
+	min-height: 240px;
+	padding: 20px;
+}
+.staff-box img {
+	float: left;
+	margin-right: 20px;
+}
+.staff-box h4 {
+	color: rgb(167, 169, 172);
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/* 4.5 - Staff Responsiveness */
+@media (min-width: 955px) and (max-width: 998px) {
+	
+}
+@media (min-width: 820px) {
+
+}
+@media (max-width: 819px) {
+	.staff {
+		width: 100%;
+		padding: 25px 0;
+	}
 }
