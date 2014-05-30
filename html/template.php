@@ -12,7 +12,7 @@
 	<?php include 'php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="images/dep-arte-moderno.jpg">
+		<img src="images/banners/dep-arte-moderno.jpg">
 	</section>
 
 	<div id="content">

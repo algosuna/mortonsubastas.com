@@ -12,8 +12,8 @@
 	<?php include 'php/include-header.php'; ?>
 
 	<section id="slider">
-		<img src="images/slide-1.jpg">
-		<img src="images/slide-2.jpg">
+		<img src="images/slides/slide-1.jpg">
+		<img src="images/slides/slide-2.jpg">
 	</section>
 
 	<div id="content">
@@ -37,19 +37,19 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
+						<img src="images/catalogs/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/cat-antiguedades.jpg" alt="Subasta de Antig&uuml;edades" title="Subasta de Antig&uuml;edades">
+						<img src="images/catalogs/cat-antiguedades.jpg" alt="Subasta de Antig&uuml;edades" title="Subasta de Antig&uuml;edades">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/cat-joyeria.jpg" alt="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;" title="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;">
+						<img src="images/catalogs/cat-joyeria.jpg" alt="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;" title="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
