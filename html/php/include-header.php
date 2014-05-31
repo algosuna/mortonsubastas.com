@@ -4,20 +4,6 @@
 	</div><!-- end #logo -->
 
 	<nav class="pull-right" role="navigation">
-
-		<!-- Collect the nav links, forms, and other content for toggling
-			<ul>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
-					</ul>
-				</li>
-			</ul> -->
 		<ul>
 			<li><a href="#">Inicio</a></li>
 			<li class="dropdown">
@@ -25,8 +11,8 @@
 				<ul class="dropdown-menu">
 					<li><a href="#">Calendario</a></li>
 					<li><a href="#">Resultados</a></li>
-				</ul>
-			</li>
+				</ul><!-- end .dropdown-menu -->
+			</li><!-- end .dropdown -->
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Departamentos</a>
 				<ul class="dropdown-menu">
@@ -38,12 +24,12 @@
 					<li class="divider"></li>
 					<li><a href="#">Oportunidades</a></li>
 					<li><a href="#">Empe&ntilde;os</a></li>
-				</ul>
-			</li>
+				</ul><!-- end .dropdown-menu -->
+			</li><!-- end .dropdown -->
 			<li><a href="#">Cat&aacute;logos</a></li>
 			<li><a href="#">Nosotros</a></li>
 			<li><a href="#">Contacto</a></li>
-		</ul>	
+		</ul><!-- end ul -->
 	</nav><!-- end .pull-right -->
 
 	<div id="quick-links">
