@@ -38,27 +38,34 @@
 
 			<h2 class="align-left">Pr&oacute;ximos Eventos</h2>
 
-			<table>
-				<tr>
-					<td>&nbsp;</td>
-					<td>Fecha</td>
-					<td>Hora</td>
-					<td>Lugar</td>
-					<td>Descripci&oacute;n</td>
-				</tr>
-				<tr>
-					<td><img src=""></td>
-					<td>Jueves, 29 de Mayo</td>
-					<td>19:00</td>
-					<td>Monte Athos 179</td>
-					<td>
-						<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
-					</td>
-				</tr>
-			</table>
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>&nbsp;</th>
+							<th>Evento</th>
+							<th>Fecha</th>
+							<th>Hora</th>
+							<th>Lugar</th>
+							<th>Descripci&oacute;n</th>
+						</tr>
+					</thead><!-- end thead -->
+					<tbody>
+						<tr>
+							<td><img src="images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
+							<td>Subasta de Arte Latinoamericano</td>
+							<td>Jueves, 29 de Mayo</td>
+							<td>19:00</td>
+							<td>Monte Athos 179</td>
+							<td>
+								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
+							</td>
+						</tr>
+					</tbody><!-- end tbody -->
+				</table><!-- end .table -->
+			</div><!-- end .table-responsive -->
 
-
-		</section>
+		</section><!-- end .cont -->
 
 		<hr>
 
@@ -71,7 +78,7 @@
 					<img src="images/staff/loin-pork.jpg" width="153" height="200">
 					<h3>Pork Loin</h3>
 					<h4>Bacon Specialist</h4>
-					<h5>11 Years</h5>
+					<h5>10 Years</h5>
 					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
@@ -86,7 +93,7 @@
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
-		</section>
+		</section><!-- end .cont -->
 
 	</div><!-- end #content -->
 
