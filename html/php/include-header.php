@@ -28,7 +28,7 @@
 			</li><!-- end .dropdown -->
 			<li><a href="#">Cat&aacute;logos</a></li>
 			<li><a href="#">Nosotros</a></li>
-			<li><a href="contact.php">Contacto</a></li>
+			<li><a href="/contact.php">Contacto</a></li>
 		</ul><!-- end ul -->
 	</nav><!-- end .pull-right -->
 

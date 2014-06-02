@@ -3,7 +3,7 @@
 		<div class="col-md-4 col-sm-6">
 			<ul id="footer-links">
 				&copy;2014 Morton Casa de Subastas<br />
-				<li class="hidden-xs"><a href="#">T&eacute;rminos y Condiciones</a></li>
+				<li class="hidden-xs"><a href="/terminos-condiciones.php">T&eacute;rminos y Condiciones</a></li>
 				<li class="hidden-xs"><a href="#">Aviso de Privacidad</a></li>
 				<li><a href="#">Multimedia</a></li>
 				<li class="hidden-xs"><a href="#">Mi Morton</a></li>
