@@ -99,7 +99,11 @@ hr {
 	margin: 0 auto;
 	padding: 0;
 }
-
+h1 small {
+	font-size: 40%;
+	color: rgb(180, 151, 90);
+	font-weight: normal;
+}
 
 /*
 
@@ -139,6 +143,7 @@ ol.breadcrumb {
 	padding: 0px;
 	margin: 0px;
 	-webkit-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
+	   -moz-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
 			box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
 	border: none;
 	cursor: pointer;
@@ -634,11 +639,6 @@ footer .row div:nth-child(2) {
 	min-height: 100px;
 	overflow: hidden;
 }
-.contact-form select {
-	-webkit-border-radius: 1px;
-	   -moz-border-radius: 1px;
-			border-radius: 1px;
-}
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
@@ -648,6 +648,7 @@ footer .row div:nth-child(2) {
 	border: none;
 	background-color: rgb(255, 255, 255);
 	-webkit-box-shadow: inset 0px 0px 2px 0px rgb(212, 212, 212);
+	   -moz-box-shadow: inset 0px 0px 2px 0px rgb(212, 212, 212);
 			box-shadow: inset 0px 0px 2px 0px rgb(212, 212, 212);
 }
 .contact-form input:hover,
@@ -659,6 +660,7 @@ footer .row div:nth-child(2) {
 .contact-form .submit:hover,
 .contact-form .submit:focus {
 	-webkit-box-shadow: 0px 0px 2px 0px rgb(193, 216, 47);
+	   -moz-box-shadow: 0px 0px 2px 0px rgb(193, 216, 47);
 			box-shadow: 0px 0px 2px 0px rgb(193, 216, 47);
 }
 .contact-form .submit {
@@ -700,4 +702,34 @@ footer .row div:nth-child(2) {
 	.cont iframe {
 		margin-top: 50px;
 	}
+}
+
+/*
+
+Terminos y Condiciones
+
+*/
+.term > ol > li {
+	list-style-type: upper-roman;
+	font-size: 35px;
+	color: rgb(0, 77, 67);
+	font-weight: 200;
+}
+.term > ol > li > h2 {
+	margin: 20px 0 10px 0;
+}
+.term > ol > li > ol,
+.term > ol > li p,
+.term > ol > li > ul {
+	font-size: 14px;
+	color: rgb(88, 89, 91);
+	font-weight: normal;
+}
+.term > ol > li > ul {
+	list-style-type: disc;
+	margin-bottom: 10px;
+}
+.term > ol > li > ol > li {
+	margin: 10px 0;
+	line-height: 16px;
 }
