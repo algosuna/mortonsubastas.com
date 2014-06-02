@@ -19,7 +19,11 @@
 
 		<h1>Department Title</h1>
 
-		<!-- TODO 29/05/2014 - Add them breadcrumbs! -->
+		<ol class="breadcrumb">
+			<li><a href="/">Inicio</a></li>
+			<li><a href="#">Departamentos</a></li>
+			<li class="active">Department Title</li>
+		</ol>
 
 		<section class="cont">
 
@@ -51,6 +55,16 @@
 						</tr>
 					</thead><!-- end thead -->
 					<tbody>
+						<tr>
+							<td><img src="images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
+							<td>Subasta de Arte Latinoamericano</td>
+							<td>Jueves, 29 de Mayo</td>
+							<td>19:00</td>
+							<td>Monte Athos 179</td>
+							<td>
+								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
+							</td>
+						</tr>
 						<tr>
 							<td><img src="images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
 							<td>Subasta de Arte Latinoamericano</td>

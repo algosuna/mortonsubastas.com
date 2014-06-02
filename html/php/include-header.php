@@ -5,7 +5,7 @@
 
 	<nav class="pull-right" role="navigation">
 		<ul>
-			<li><a href="#">Inicio</a></li>
+			<li><a href="/">Inicio</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Subastas</a>
 				<ul class="dropdown-menu">

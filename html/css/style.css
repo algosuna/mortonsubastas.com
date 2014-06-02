@@ -107,6 +107,11 @@ p.large {
 h2.align-left {
 	text-align: left; /* headers center by default */
 }
+ol.breadcrumb {
+	background-color: rgb(255, 255, 255);
+	margin: 20px 0 0 50px;
+	padding: 0;
+}
 
 
 /*
@@ -495,6 +500,9 @@ footer .row div:nth-child(2) {
 }
 .cont > img {
 	margin: 0 0 50px 50px;
+}
+.cont:first-of-type {
+	padding-top: 20px;
 }
 
 /* 4.4 - Staff */
