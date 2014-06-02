@@ -54,6 +54,10 @@ May, 2013
 	4.5 - Staff Responsiveness
 
 5. - Contact: Styles specific to the contact page.
+	5.1 - Resets
+	5.2 - Sizing & Prettying
+	5.3 - Placeholder Compatibility
+	5.4 - Contact Responsiveness
 
 *********************************************************
 ********************************************************/
@@ -72,6 +76,9 @@ html {
 }
 body {
 	margin-bottom: 180px;
+}
+*:focus {
+	outline: none;
 }
 
 /* 0.2 - Typography Corrections */
@@ -107,10 +114,40 @@ p.large {
 h2.align-left {
 	text-align: left; /* headers center by default */
 }
+
+/* 1.2 - Components */
 ol.breadcrumb {
 	background-color: rgb(255, 255, 255);
 	margin: 20px 0 0 50px;
 	padding: 0;
+}
+.btn-morton,
+.btn-morton:link,
+.btn-morton:visited {
+	font-size: 24px;
+	font-weight: 200;
+	color: rgb(88, 89, 91);
+	display: block;
+	width: 155px;
+	height: 40px;
+	float: left;
+	background-color: rgb(193, 216, 47);
+	-webkit-transition: background-color .15s ease-in;
+	   -moz-transition: background-color .15s ease-in;
+	  	 -o-transition: background-color .15s ease-in;
+	  	 	transition: background-color .15s ease-in;
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
+			box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
+	border: none;
+	cursor: pointer;
+}
+.btn-morton:hover,
+.btn-morton:focus,
+.btn-morton:active {
+	background-color: rgb(140, 159, 29);
+	color: rgb(255, 255, 255);
 }
 
 
@@ -552,3 +589,115 @@ footer .row div:nth-child(2) {
 5. - Contact
 
 */
+
+/* 5.1 - Resets */
+.contact-form {
+	display: block;
+	width: 100%;
+}
+.contact-form ul {
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.contact-form ul li {
+	position: relative;
+}
+
+/* 5.2 - Sizing & Prettying */
+.contact-form p {
+	font-size: 16px;
+	color: rgb(88, 89, 91);
+}
+.contact-form label,
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+	font-size: 18px;
+	font-weight: normal;
+	color: rgb(88, 89, 91);
+}
+.contact-form label {
+	width: 170px;
+	display: inline-block;
+	float: left;
+	padding: 16px 0 0 0;
+	text-align: right;
+	color: rgb(88, 89, 91);
+}
+.contact-form input,
+.contact-form select {
+	height: 40px;
+}
+.contact-form textarea {
+	min-height: 100px;
+	overflow: hidden;
+}
+.contact-form select {
+	-webkit-border-radius: 1px;
+	   -moz-border-radius: 1px;
+			border-radius: 1px;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+	width: 60%;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: inset 0px 0px 2px 0px rgb(212, 212, 212);
+			box-shadow: inset 0px 0px 2px 0px rgb(212, 212, 212);
+}
+.contact-form input:hover,
+.contact-form input:focus,
+.contact-form select:hover,
+.contact-form select:focus,
+.contact-form textarea:hover,
+.contact-form textarea:focus,
+.contact-form .submit:hover,
+.contact-form .submit:focus {
+	-webkit-box-shadow: 0px 0px 2px 0px rgb(193, 216, 47);
+			box-shadow: 0px 0px 2px 0px rgb(193, 216, 47);
+}
+.contact-form .submit {
+	margin: 10px 0 0 180px;
+}
+
+/* 5.3 - Placeholder Compatibility */
+::-webkit-input-placeholder,
+	 :-ms-input-placeholder,
+		 ::-moz-placeholder,
+		  :-moz-placeholder {
+	color: rgb(209, 211, 212);
+}
+
+/* 5.4 - Contact Responsiveness */
+@media (max-width: 1089px) {
+	.contact-form label,
+	.contact-form textarea,
+	.contact-form input {
+		width: 100%;
+		margin: 0;
+	}
+	.contact-form textarea,
+	.contact-form input {
+		margin: 5px 0 10px 0;
+	}
+	.contact-form label {
+		text-align: left;
+		padding: 0;
+	}
+	.contact-form .submit {
+		margin: 0;
+	}
+}
+@media (max-width: 768px) {
+	.contact-form .submit {
+		width: 100%;
+	}
+	.cont iframe {
+		margin-top: 50px;
+	}
+}
