@@ -4,7 +4,7 @@
 			<ul id="footer-links">
 				&copy;2014 Morton Casa de Subastas<br />
 				<li class="hidden-xs"><a href="/terminos-condiciones.php">T&eacute;rminos y Condiciones</a></li>
-				<li class="hidden-xs"><a href="#">Aviso de Privacidad</a></li>
+				<li class="hidden-xs"><a href="/aviso-privacidad.php">Aviso de Privacidad</a></li>
 				<li><a href="#">Multimedia</a></li>
 				<li class="hidden-xs"><a href="#">Mi Morton</a></li>
 				<li><a href="#">Registro</a></li>

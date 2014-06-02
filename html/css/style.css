@@ -733,3 +733,16 @@ Terminos y Condiciones
 	margin: 10px 0;
 	line-height: 16px;
 }
+
+/*
+
+Aviso de Privacidad
+
+*/
+
+.avis h2:first-of-type {
+	margin-top: 0px;
+}
+.avis h2 {
+	margin: 20px 0 10px 0;
+}
