@@ -1,3 +1,4 @@
+<?php include_once 'php/parse-contact.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
