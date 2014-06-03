@@ -29,6 +29,7 @@ May, 2013
 0. - Structure: Additions for features.
 	0.1 - Sticky Footer
 	0.2 - Typography Corrections
+	0.3 - Other
 
 1. - General: Classes that can be used throughout the site.
 	1.1 - Typography
@@ -77,9 +78,6 @@ html {
 body {
 	margin-bottom: 180px;
 }
-*:focus {
-	outline: none;
-}
 
 /* 0.2 - Typography Corrections */
 h1 {
@@ -103,6 +101,17 @@ h1 small {
 	font-size: 40%;
 	color: rgb(180, 151, 90);
 	font-weight: normal;
+}
+
+/* 0.3 - Other */
+*:focus {
+	outline: none;
+}
+::selection {
+	background: rgb(180, 151, 90);;
+}
+::-moz-selection {
+	background: rgb(180, 151, 90);;
 }
 
 /*
