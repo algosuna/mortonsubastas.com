@@ -1,6 +1,6 @@
 <?php 
-include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
-$pageId = "vin";
+//include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
+//$pageId = "vin";
 ?>
 <!DOCTYPE html>
 <html lang="es">
