@@ -1,18 +1,19 @@
 <?php
 require_once 'lol/vldt.php';
 
-$name = $email = $dept = $message = $valid = $department = $deptemail = $nmErr = $emErr = $msErr = $to = $subject = $body = $headers = $mail_sent = $notification = "";
+$name = $email = $dept = $message = $valid = $department = $deptemail = $nmErr = $emErr = $msErr = $dpErr = $to = $subject = $body = $headers = $mail_sent = $notification = "";
 
-if ($_POST['did_send'] == 'true') {
+if (isset($_POST['did_send']) == 'true') {
 	$name	=	clean_input($_POST['name']);
 	$email	=	clean_input($_POST['email']);
 	$dept	=	clean_input($_POST['dept']);
 	$message=	clean_input($_POST['message']);
 	$valid	=	true;
 
-
+// TODO 05-06-2014: Get department emails!
 	if (strlen($dept) == 0) {
-		$valid	=	false;
+		$valid		= false;
+		$dpErr		= "<div class='alert alert-warning'>Por favor seleccione el departamento que desea contactar.</div>";
 	} elseif ($dept == 'ate') {
 		$valid		= true;
 		$department	= "Atenci&oacute;n a Clientes";
@@ -41,9 +42,9 @@ if ($_POST['did_send'] == 'true') {
 		$valid		= true;
 		$department	= "Oportunidades";
 		$deptemail	= 'andyosuna@gmail.com';
-	} elseif ($dept == 'ant') {
+	} elseif ($dept == 'emp') {
 		$valid		= true;
-		$department	= "Antig&uuml;edades";
+		$department	= "Empe&ntilde;os";
 		$deptemail	= 'info@andyosuna.com';
 	} else {
 		$valid		= true;
@@ -52,20 +53,16 @@ if ($_POST['did_send'] == 'true') {
 
 
 	if (strlen($name) == 0 OR !preg_match("/^[a-zA-Z]*$/", $name)) {
-		$valid	=	false;
-		$nmErr	=	"<div class='alert alert-warning'>Por favor escriba su nombre. Solo letras y espacios permitidos.</div>";
+		$valid	= false;
+		$nmErr	= "<div class='alert alert-warning'>Por favor escriba su nombre. Solo letras y espacios permitidos.</div>";
 	}
 	if (strlen($email) == 0 OR check_email_address($email) == false) {
-		$valid	=	false;
+		$valid	= false;
 		$emErr	= "<div class='alert alert-warning'>Escriba un correo v&aacute;lido.</div>";
 	}
-	if (strlen($dept) == 0) {
-		$valid = false;
-		$dpErr = "<div class='alert alert-warning'>Por favor seleccione el departamento que desea contactar.</div>";
-	}
 	if (strlen($message) == 0) {
-		$valid	=	false;
-		$msErr	=	"<div class='alert alert-warning'>Por favor escriba su mensaje.</div>";
+		$valid	= false;
+		$msErr	= "<div class='alert alert-warning'>Por favor escriba su mensaje.</div>";
 	}
 
 
@@ -81,7 +78,8 @@ if ($_POST['did_send'] == 'true') {
 	$body		.=	"</body></html>";
 	$headers	=	"From: " . $email . "\r\n";
 	$headers	.=	"Reply-to: " . $email . "\r\n";
-	$headers	.=	"CC: andyosuna@gmail.com\r\n"; //change to "atencion a clientes"
+	$headers	.=	"CC: andyosuna@gmail.com\r\n";
+						// TODO 04-06-2014: change to atencion a clientes' email
 	$headers	.=	"MIME-version: 1.0\r\n";
 	$headers	.=	"Content-Type: text/html; charset=ISO-8859-1\r\n";
 
