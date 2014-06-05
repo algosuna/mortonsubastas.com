@@ -1,4 +1,4 @@
-<?php include_once 'php/parse-contact.php'; ?>
+<?php require 'php/parse-contact.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -29,21 +29,26 @@
 			<h2 class="align-left">Cont&aacute;ctenos</h2>
 			<div class="row">
 				<div class="col-sm-6">
-					<form class="contact-form clearfix" method="post" action="/es/contact.php" name="contact-form">
+					<?php if ($mail_sent == 1) {
+						echo $notification;
+					} else { ?>
+					<form class="contact-form clearfix" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" name="contact-form">
 						<p>Todos los campos son requeridos.</p>
 						<ul>
 							<li>
 								<label for="name">Nombre:</label>
-								<input type="text" name="name" placeholder="Juan P&eacute;rez" value="" required />
+								<input type="text" name="name" placeholder="Juan P&eacute;rez" value="<?php echo ($name); ?>" required>
+								<?php if ($valid == false) echo ($nmErr); ?>
 							</li>
 							<li>
 								<label for="email">Correo Electr&oacute;nico:</label>
-								<input type="email" name="email" placeholder="juan.perez@ejemplo.com" value="" required />
+								<input type="email" name="email" placeholder="juan.perez@ejemplo.com" value="<?php echo $email; ?>" required>
+								<?php if ($valid == false) echo ($emErr); ?>
 							</li>
 							<li>
-								<label for="department">Departamento:</label>
-								<select name="department" required>
-									<option value="">-- Seleccione Departamento --</option>
+								<label for="dept">Departamento:</label>
+								<select name="dept" required>
+									<option value="<?php echo ($dept) ?>">-- Seleccione Departamento --</option>
 									<option value="ate">Atenci&oacute;n a Clientes</option>
 									<option value="ant">Antig&uuml;edades</option>
 									<option value="art">Arte Moderno</option>
@@ -53,15 +58,18 @@
 									<option value="opo">Oportunidades</option>
 									<option value="emp">Empe&ntilde;os</option>
 								</select>
+								<?php if ($valid == false) echo ($dpErr); ?>
 							</li>
 							<li>
 								<label for="message">Mensaje:</label>
-								<textarea name="message" cols="40" rows="6" placeholder="Escriba su mensaje..." required ></textarea>
+								<textarea name="message" cols="40" rows="6" placeholder="Escriba su mensaje..." required><?php echo ($message); ?></textarea>
+								<?php if ($valid == false) echo ($msErr); ?>
 							</li>
 							<li>
 								<button class="btn-morton submit" type="submit">Enviar!</button>
 								<input type="hidden" name="did_send" value="true" />
 							</li>
+							<?php } //-- end if ?>
 						</ul><!-- end ul -->
 					</form><!-- end .contact-form -->
 				</div><!-- end .col-sm-6 -->
