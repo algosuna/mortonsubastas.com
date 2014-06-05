@@ -87,7 +87,7 @@ if (isset($_POST['did_send']) == 'true') {
 	if ($valid == true) {
 		$mail_sent	=	mail($to, $subject, $body, $headers);
 		if ($mail_sent == 1) {
-			$notification	=	"<div class='alert alert-success'>Gracias por su correo, ".$name.". Le responderemos en cuanto nos sea posible.</div><p>S&iacute;ganos en las redes sociales!</p>";
+			$notification	=	"<div class='alert alert-success'>Gracias por su correo, ".$name.". Le responderemos en cuanto nos sea posible.</div>";// TODO 05-06-2014: add the social media
 		} else {
 			$notification	=	"<div class='alert alert-danger'>Lo sentimos, algo sali&oacute; mal. Su mensaje no fue enviado. Por favor env&iacute;enos un correo e inf&oacute;rmenos del error. <a href='mailto:info@andyosuna.com' class='alert-link'>info@andyosuna.com</a></div>";
 		}
