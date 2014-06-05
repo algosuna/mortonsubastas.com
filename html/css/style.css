@@ -107,12 +107,6 @@ h1 small {
 *:focus {
 	outline: none;
 }
-::selection {
-	background: rgb(180, 151, 90);;
-}
-::-moz-selection {
-	background: rgb(180, 151, 90);;
-}
 
 /*
 
