@@ -5,7 +5,7 @@
 				&copy;2014 Morton Casa de Subastas<br />
 				<li class="hidden-xs"><a href="/terminos-condiciones.php">T&eacute;rminos y Condiciones</a></li>
 				<li class="hidden-xs"><a href="/aviso-privacidad.php">Aviso de Privacidad</a></li>
-				<li><a href="#">Multimedia</a></li>
+				<li><a href="#">Subastas en L&iacute;nea</a></li>
 				<li class="hidden-xs"><a href="#">Mi Morton</a></li>
 				<li><a href="#">Registro</a></li>
 				<li><a href="#">Ayuda</a></li>
@@ -16,11 +16,11 @@
 		</div><!-- end .col-md-4 -->
 		<div class="col-md-4 col-sm-6">
 			<ul id="social-media">
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">YouTube</a></li>
-				<li><a href="#">Pinterest</a></li>
-				<li><a href="#">Instagram</a></li>
+				<li><a href="https://www.facebook.com/mortoncasadesubastas" target="_blank">Facebook</a></li>
+				<li><a href="https://twitter.com/Morton_Subastas" target="_blank">Twitter</a></li>
+				<li><a href="https://www.youtube.com/user/MortonSubastas" target="_blank">YouTube</a></li>
+				<li><a href="http://www.pinterest.com/mortonsubastas/" target="_blank">Pinterest</a></li>
+				<li><a href="http://instagram.com/morton_subastas" target="_blank">Instagram</a></li>
 			</ul><!-- end #social-media -->
 		</div><!-- end .col-md-4 -->
 	</div><!-- end .row -->

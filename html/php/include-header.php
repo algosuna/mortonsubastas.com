@@ -26,7 +26,13 @@
 					<li><a href="#">Empe&ntilde;os</a></li>
 				</ul><!-- end .dropdown-menu -->
 			</li><!-- end .dropdown -->
-			<li><a href="#">Cat&aacute;logos</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Cat&aacute;logos</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Cat&aacute;logos Digitales</a></li>
+					<li><a href="#">Subscripciones</a></li>
+				</ul><!-- end .dropdown-menu -->
+			</li><!-- end .dropdown -->
 			<li><a href="#">Nosotros</a></li>
 			<li><a href="/contact.php">Contacto</a></li>
 		</ul><!-- end ul -->
