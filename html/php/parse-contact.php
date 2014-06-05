@@ -1,5 +1,5 @@
 <?php
-require_once 'lol/vldt.php';
+require_once 'http://mortonsubastas.andyosuna.com/lol/vldt.php';
 
 $name = $email = $dept = $message = $valid = $department = $deptemail = $nmErr = $emErr = $msErr = $dpErr = $to = $subject = $body = $headers = $mail_sent = $notification = "";
 

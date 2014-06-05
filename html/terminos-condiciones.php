@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<?php include 'php/include-meta.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-meta.php'; ?>
 	
 	<title>Morton Casa de Subastas - T&eacute;rminos y Condiciones</title>
 
-	<?php include 'php/include-css.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
 </head>
 
 <body>
-	<?php include 'php/include-header.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-arte-moderno.jpg">
 	</section>
 
 	<div id="content">
 
-		<h1>T&eacute;rminos y Condiciones <small>Para comprar en subasta</small></h1>
+		<h1>T&eacute;rminos y Condiciones</h1>
 
 		<ol class="breadcrumb">
 			<li><a href="/">Inicio</a></li>
@@ -128,8 +128,8 @@
 
 	</div><!-- end #content -->
 
-	<?php include 'php/include-footer.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
-    <?php include 'php/include-js.php'; ?>
+    <?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
 </body>
 </html>

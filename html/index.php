@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<?php include 'php/include-meta.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-meta.php'; ?>
 	
-	<title>Morton Casa de Subastas - Template</title>
+	<title>Morton Casa de Subastas - Inicio</title>
 
-	<?php include 'php/include-css.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
 </head>
 
 <body>
-	<?php include 'php/include-header.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="slider" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -19,21 +19,21 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="images/slides/slide-1.jpg" alt="Subasta de Joyer&iacute;a">
+					<img src="/images/slides/slide-1.jpg" alt="Subasta de Joyer&iacute;a">
 					<div class="carousel-caption">
 						<h3>Subasta de Joyer&iacute;a</h3>
 						<p>Relojes y Mobiliario Europeo <a href="#">Ver Evento -></a></p>
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/slides/slide-2.jpg" alt="Subasta de Vinos">
+					<img src="/images/slides/slide-2.jpg" alt="Subasta de Vinos">
 					<div class="carousel-caption">
 						<h3>Subasta de Vinos</h3>
 						<p>de Colecci&oacute;n, uso Diario y Destilados <a href="#">Ver Evento -></a></p>
 					</div>
 				</div>
 				<div class="item">
-					<img src="images/slides/slide-3.jpg" alt="Subasta de Grabados">
+					<img src="/images/slides/slide-3.jpg" alt="Subasta de Grabados">
 					<div class="carousel-caption">
 						<h3>Subasta de Grabados</h3>
 						<p>Fotograf&iacute;a, Documentos Escritos y Manuscritos, Mapas, Libros Antig&uuml;os y Contempor&aacute;neos <br>(Incluye 12 Lotes de la Biblioteca Ecl&eacute;tica MONCLAU) <a href="#">Ver Evento -></a></p>
@@ -48,7 +48,7 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<!-- TODO: add youtube video iframe or something -->
-					<img src="images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+					<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
 				</div><!-- end .col-sm-6 -->
 				<div class="col-sm-6">
 					<p class="large">Drumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
@@ -63,19 +63,19 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/catalogs/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
+						<img src="/images/catalogs/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/catalogs/cat-antiguedades.jpg" alt="Subasta de Antig&uuml;edades" title="Subasta de Antig&uuml;edades">
+						<img src="/images/catalogs/cat-antiguedades.jpg" alt="Subasta de Antig&uuml;edades" title="Subasta de Antig&uuml;edades">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
 				<div class="col-md-4 col-sm-6">
 					<div class="cat">
-						<img src="images/catalogs/cat-joyeria.jpg" alt="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;" title="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;">
+						<img src="/images/catalogs/cat-joyeria.jpg" alt="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;" title="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;">
 						<a href="#">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 				</div><!-- end .col-md-4 -->
@@ -83,9 +83,9 @@
 		</section><!-- end #catalogs -->
 	</div><!-- #content -->
 
-	<?php include 'php/include-footer.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
-	<?php include 'php/include-js.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
 	<script type="text/javascript">
 	$('#slider').carousel({pause:"hover";interval:2000;});
 	</script>

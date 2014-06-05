@@ -6,4 +6,4 @@
 <meta name="description" content="Morton Casa de Subastas">
 <meta name="keywords" content="Subastas, Mexico">
 
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<?php include 'php/include-meta.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-meta.php'; ?>
 	
 	<title>Morton Casa de Subastas - Template</title>
 
-	<?php include 'php/include-css.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
 </head>
 
 <body>
-	<?php include 'php/include-header.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-arte-moderno.jpg">
 	</section>
 
 	<div id="content">
@@ -29,7 +29,7 @@
 
 			<h2 class="align-left">Descripci&oacute;n</h2>
 
-			<img src="images/cont-sample.jpg" width="306" height="198" class="pull-right">
+			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
 			<p>Bacon ipsum dolor sit amet turkey tail pork belly, rump tenderloin ham t-bone pork. Andouille swine tail pork loin ball tip ham ham hock sirloin beef doner tri-tip. Pork loin strip steak kevin frankfurter flank.</p>
 			<p>Bacon kevin strip steak, pancetta hamburger frankfurter andouille kielbasa meatloaf jerky shoulder cow ground round prosciutto. Beef ribs sausage doner tongue chicken.</p>
 
@@ -56,7 +56,7 @@
 					</thead><!-- end thead -->
 					<tbody>
 						<tr>
-							<td><img src="images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
+							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
 							<td>Subasta de Arte Latinoamericano</td>
 							<td>Jueves, 29 de Mayo</td>
 							<td>19:00</td>
@@ -66,7 +66,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td><img src="images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
+							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
 							<td>Subasta de Arte Latinoamericano</td>
 							<td>Jueves, 29 de Mayo</td>
 							<td>19:00</td>
@@ -89,7 +89,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="images/staff/loin-pork.jpg" width="153" height="200">
+					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
 					<h3>Pork Loin</h3>
 					<h4>Bacon Specialist</h4>
 					<h5>10 Years</h5>
@@ -99,7 +99,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="images/staff/salami-sirloin.jpg" width="153" height="200">
+					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
 					<h3>Sirloin Salami</h3>
 					<h4>Drumstick Specialist</h4>
 					<h5>11 Years</h5>
@@ -111,8 +111,8 @@
 
 	</div><!-- end #content -->
 
-	<?php include 'php/include-footer.php'; ?>
+	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
-    <?php include 'php/include-js.php'; ?>
+    <?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
 </body>
 </html>

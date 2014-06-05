@@ -8,11 +8,11 @@
 				<li><a href="#">Subastas en L&iacute;nea</a></li>
 				<li class="hidden-xs"><a href="#">Mi Morton</a></li>
 				<li><a href="#">Registro</a></li>
-				<li><a href="#">Ayuda</a></li>
+				<li><a href="/ayuda.php">Ayuda</a></li>
 			</ul><!-- end #footer-links -->
 		</div><!-- end .col-md-4 -->
 		<div class="col-md-4 visible-md visible-lg">
-			<a href="#"><img src="images/logo-footer.png" alt="Morton Casa de Subastas" title="Morton Casa de Subastas"></a>
+			<a href="/"><img src="/images/logo-footer.png" alt="Morton Casa de Subastas" title="Morton Casa de Subastas"></a>
 		</div><!-- end .col-md-4 -->
 		<div class="col-md-4 col-sm-6">
 			<ul id="social-media">
