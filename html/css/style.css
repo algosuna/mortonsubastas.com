@@ -179,31 +179,39 @@ header {
 	background-image: url(../images/logo.png);
 	cursor: pointer;
 }
-nav {
-	font-size: 18px;
-	margin-top: 10px;
-}
-nav > ul {
-	margin: 0;
-	padding: 0;
-}
-nav > ul > li {
-	list-style: none;
-	display: inline-block;
-	margin: 0;
-	padding: 10px;
-}
-nav ul.dropdown-menu > li > a,
-nav ul.dropdown-menu > li > a:link,
-nav ul.dropdown-menu > li > a:visited {
-	color: rgb(140, 159, 29); /* darkened green */
-}
-nav ul.dropdown-menu > li > a:hover,
-nav ul.dropdown-menu > li > a:focus,
-nav ul.dropdown-menu > li > a:active {
-	color: rgb(193, 216, 47); /* flaming green */
-	text-decoration: underline;
-	background-color: rgb(255, 255, 255); /* changes the grey to white */
+@media (min-width: 768px) {
+	nav {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	nav > ul {
+		margin: 0;
+		padding: 0;
+	}
+	nav > ul > li {
+		list-style: none;
+		display: inline-block;
+		margin: 0;
+		padding: 10px;
+	}
+	nav ul.dropdown-menu > li > a,
+	nav ul.dropdown-menu > li > a:link,
+	nav ul.dropdown-menu > li > a:visited {
+		color: rgb(140, 159, 29); /* darkened green */
+	}
+	nav ul.dropdown-menu > li > a:hover,
+	nav ul.dropdown-menu > li > a:focus,
+	nav ul.dropdown-menu > li > a:active {
+		color: rgb(193, 216, 47); /* flaming green */
+		text-decoration: underline;
+		background-color: rgb(255, 255, 255); /* changes the grey to white */
+	}
+	nav > ul > li:last-child {
+		padding-right: 0;
+	}
+	nav > ul > li.dropdown:hover ul.dropdown-menu {
+		display: block; /* shows the dropdown on hover */
+	}
 }
 header a,
 header a:link,
@@ -217,12 +225,6 @@ header a:active {
 }
 header a:active {
 	text-decoration: none;
-}
-nav > ul > li:last-child {
-	padding-right: 0;
-}
-nav > ul > li.dropdown:hover ul.dropdown-menu {
-	display: block; /* shows the dropdown on hover */
 }
 #quick-links {
 	position: absolute;
@@ -265,6 +267,29 @@ nav > ul > li.dropdown:hover ul.dropdown-menu {
 }
 
 /* 2.3 - Header Responsiveness */
+.navbar-toggle {
+	background-color: rgb(65, 64, 66);
+	background-image:none;
+	border:1px solid rgb(167, 169, 172);
+	float:right;
+	margin:0;
+	margin-right:10px;
+	padding:9px 10px;
+	position:relative;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus,
+.navbar-toggle:active {
+	background-color: rgb(167, 169, 172);
+}
+.navbar-toggle .icon-bar {
+	background-color: rgb(167, 169, 172);
+}
+.navbar-toggle:hover > .icon-bar,
+.navbar-toggle:focus > .icon-bar,
+.navbar-toggle:active > .icon-bar {
+	background-color: rgb(255, 255, 255);
+}
 @media (min-width: 955px) and (max-width: 998px) {
 	header nav {
 		font-size: 16px;
@@ -288,9 +313,12 @@ nav > ul > li.dropdown:hover ul.dropdown-menu {
 		margin-bottom: 90px; /* BUG fix */
 	}
 }
-@media (max-width: 819px) {
+@media (max-width: 835px) {
 	header nav {
 		visibility: hidden;
+	}
+	.navbar-toggle {
+		display: block;
 	}
 	/* TODO 27/05/14: add the menu for mobile */
 }
