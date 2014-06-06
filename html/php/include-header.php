@@ -13,7 +13,7 @@
 					<li><a href="/subastas/resultados.php">Resultados</a></li>
 				</ul><!-- end .dropdown-menu -->
 			</li><!-- end .dropdown -->
-			<li class="dropdown<?//php echo $depCurrent ?>">
+			<li class="dropdown">
 				<a href="/departamentos/" class="dropdown-toggle" data-toggle="dropdown">Departamentos</a>
 				<ul class="dropdown-menu">
 					<li><a href="/departamentos/antiguedades.php">Antig&uuml;edades</a></li>

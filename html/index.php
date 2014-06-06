@@ -22,14 +22,14 @@
 					<img src="/images/slides/slide-1.jpg" alt="Subasta de Joyer&iacute;a">
 					<div class="carousel-caption">
 						<h3>Subasta de Joyer&iacute;a</h3>
-						<p>Relojes y Mobiliario Europeo <a href="#">Ver Evento -></a></p>
+						<p>Relojes y Mobiliario Europeo <br><a href="#">Ver Evento -></a></p>
 					</div>
 				</div>
 				<div class="item">
 					<img src="/images/slides/slide-2.jpg" alt="Subasta de Vinos">
 					<div class="carousel-caption">
 						<h3>Subasta de Vinos</h3>
-						<p>de Colecci&oacute;n, uso Diario y Destilados <a href="#">Ver Evento -></a></p>
+						<p>de Colecci&oacute;n, uso Diario y Destilados <br><a href="#">Ver Evento -></a></p>
 					</div>
 				</div>
 				<div class="item">
@@ -42,6 +42,7 @@
 			</div>
 	</section>
 
+<div id="content-wrapper">
 	<div id="content">
 		<section id="video" class="container-fluid">
 			<h2>V&iacute;deo Destacado</h2>
@@ -84,6 +85,7 @@
 	</div><!-- #content -->
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
+</div>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
 	<script type="text/javascript">
