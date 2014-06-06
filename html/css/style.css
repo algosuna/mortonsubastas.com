@@ -242,7 +242,7 @@ header a:active {
 	background-color: rgb(0, 0, 0);
 	position: fixed;
 	top: 0;
-	z-index:10;
+	z-index: 10;
 }
 .scrolled nav {
 	margin: 0;
@@ -461,10 +461,9 @@ footer .row div:nth-child(2) {
 #slider {
 	z-index: -1;
 }
-
 #slider ol.carousel-indicators {
+	display: block;
 	bottom: 20px;
-	z-index: 15!important;
 }
 #slider .carousel-inner .item .carousel-caption {
 	bottom: 20px;
@@ -476,7 +475,6 @@ footer .row div:nth-child(2) {
 	text-align: left;
 	display: block;
 	width: 350px;
-	z-index: 20;
 }
 #slider .carousel-inner .item .carousel-caption h3 {
 	color: rgb(255, 255, 255);
@@ -486,7 +484,6 @@ footer .row div:nth-child(2) {
 	min-width: 100%;
 	top: 10%;
 	left: 10%;
-	z-index: -1;
 }
 #slider .carousel-inner .item img:empty {
 	top: 50%;
@@ -497,8 +494,12 @@ footer .row div:nth-child(2) {
 		 -o-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 }
-#slider ~ #content {
-	margin-top: 80vh; /* TODO 30/05/2014: Check compatibility of unit; */
+#content-wrapper {
+	position: absolute;
+	top: 100vh; /* TODO 30/05/2014: Check compatibility of unit; */
+}
+#content-wrapper footer {
+	bottom: -180px;
 }
 
 /* 3.2 - Sections */
