@@ -2,11 +2,11 @@
 	<div id="logo" class="pull-left">
 		<a href="/">Morton Casa de Subastas</a>
 	</div><!-- end #logo -->
-		<button class="navbar-toggle">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-	</button><!-- end .navbar-toggle -->
+	<button class="hambarger">
+		<span class="hambar"></span>
+		<span class="hambar"></span>
+		<span class="hambar"></span>
+	</button><!-- end .hambarger -->
 	<nav class="pull-right" role="navigation">
 		<ul>
 			<li><a href="/">Inicio</a></li>
