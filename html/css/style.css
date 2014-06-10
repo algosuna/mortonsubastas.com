@@ -363,13 +363,6 @@ header a:active {
 		display: block;
 		width: 50%;
 	}
-	nav > ul > li:first-child {
-		padding-top: 0;
-	}
-	nav > ul > li:last-child {
-		border-bottom: none;
-		padding: 5px 0 0 5px;
-	}
 	nav > ul > li:last-child {
 		padding-top:20px;
 	}
@@ -446,14 +439,14 @@ header a:active {
 	nav > ul > li {
 		width: 100%;
 		border-bottom: 1px solid #333;
-		padding: 5px;
+		padding: 4px;
 	}
 	nav > ul > li:first-child {
 		padding-top: 0;
 	}
 	nav > ul > li:last-child {
 		border-bottom: none;
-		padding: 5px 0 0 5px;
+		padding: 4px 0 0 4px;
 	}
 	.animating nav,
 	.nav-visible nav {
