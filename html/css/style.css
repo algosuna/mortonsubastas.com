@@ -424,6 +424,11 @@ header a:active {
 		position: relative;
 		top: 200px;
 	}
+	.animating #logo,
+	.nav-visible #logo {
+		display: none;
+	}
+	.animating #slider .carousel-caption,
 	.nav-visible #slider .carousel-caption {
 		display: none!important;
 	}
@@ -453,17 +458,21 @@ header a:active {
 		top: -360px;
 		height: 360px;
 	}
-	.animating.down header  {
-		transform: translate3d( 0, 360px, 0 );
-		-webkit-transform: translate3d( 0, 360px, 0 );
+	.animating.down header {
+		transform: translate3d(0, 360px, 0);
+		-webkit-transform: translate3d(0, 360px, 0);
 	}
 	.animating.up header {
-		transform: translate3d( 0, -360px, 0 );
-		-webkit-transform: translate3d( 0, -360px, 0 );
+		transform: translate3d(0, -360px, 0);
+		-webkit-transform: translate3d(0, -360px, 0);
 	}
 	.nav-visible header {
 		position: relative;
 		top: 360px;
+	}
+	.animating .scrolled #logo,
+	.nav-visible .scrolled #logo {
+		display: block;
 	}
 	.nav-visible .scrolled {
 		position: fixed;
@@ -581,6 +590,11 @@ footer .row div:nth-child(2) {
 @media (max-width: 877px) {
 	.scrolled ~ footer {
 		bottom: -60px; /* BUG fix */
+	}
+}
+@media (max-width: 835px) {
+	.scrolled ~ footer {
+		bottom: -250px; /* BUG fix */
 	}
 }
 @media (max-width: 768px) { 
