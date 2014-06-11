@@ -470,7 +470,7 @@ header a:active {
 		top: -360px;
 	}
 }
-@media (max-width: 400px) {
+@media (max-width: 399px) {
 	.hambarger {
 		top: 20px;
 	}
@@ -658,7 +658,7 @@ footer .row div:nth-child(2) {
 }
 #content-wrapper {
 	position: absolute;
-	top: 100vh; /* TODO 30/05/2014: Check compatibility of unit; */
+	top: 100%;
 }
 #content-wrapper footer {
 	bottom: -180px;
@@ -700,9 +700,6 @@ footer .row div:nth-child(2) {
 	}
 }
 @media (max-width: 877px) {
-	#slider ~ #content {
-		margin-top: 88vh; /* TODO 30/05/2014: Check compatibility of unit; */
-	}
 	#slider ol.carousel-indicators {
 		display: none;
 	}
@@ -711,6 +708,16 @@ footer .row div:nth-child(2) {
 		left: 0;
 		padding: 0 50px;
 	}
+}
+@media (max-width: 835px) {
+ 	#slider ~ #content-wrapper {
+		margin-top: 75%;
+	}
+	#content-wrapper {
+		
+		/* something! */
+		/* TODO: Figure out a way of indicating a top shift dependant on the viewport. prolly javascript; */
+	}	
 }
 
 
