@@ -261,7 +261,6 @@ header a:active {
 .scrolled ~ #content {
 	position: relative;
 	top: 150px; /* BUG fix */
-	margin-bottom: 150px; /* BUG fix */
 }
 
 /* 2.3 - Header Responsiveness */
@@ -302,7 +301,6 @@ header a:active {
 .hambarger:active > .hambar {
 	background-color: rgb(255, 255, 255);
 }
-/*mobile menu styles */
 @media (min-width: 955px) and (max-width: 998px) {
 	header nav {
 		font-size: 16px;
@@ -323,7 +321,6 @@ header a:active {
 	}
 	.scrolled ~ #content {
 		top: 90px; /* BUG fix */
-		margin-bottom: 90px; /* BUG fix */
 	}
 }
 @media (min-width: 836px) {
@@ -335,25 +332,16 @@ header a:active {
 	.hambarger {
 		display: block;
 	}
-	/* mobile side menu styles */
-	body {
-		position: relative; /* Set the position property so z-index will apply */
-		z-index: 2; /* Make sure this is higher than nav */
-	}
 	nav {
 		display: none;
 		position: absolute;
 		top: 0;
 		right: 0;
-
 		width: 100%;
 		padding: 15px 25px;
 		margin: 0;
-
 		list-style: none;
 		background: rgb(0, 0, 0);
-		z-index: -20; /* Make sure the z-index is lower than the #page */
-
 		font-size: 14px;
 	}
 	nav > ul {
@@ -428,6 +416,10 @@ header a:active {
 	.nav-visible #logo {
 		display: none;
 	}
+	.animating .scrolled #logo,
+	.nav-visible .scrolled #logo {
+		display: block;
+	}
 	.animating #slider .carousel-caption,
 	.nav-visible #slider .carousel-caption {
 		display: none!important;
@@ -469,10 +461,6 @@ header a:active {
 	.nav-visible header {
 		position: relative;
 		top: 360px;
-	}
-	.animating .scrolled #logo,
-	.nav-visible .scrolled #logo {
-		display: block;
 	}
 	.nav-visible .scrolled {
 		position: fixed;
@@ -594,7 +582,7 @@ footer .row div:nth-child(2) {
 }
 @media (max-width: 835px) {
 	.scrolled ~ footer {
-		bottom: -250px; /* BUG fix */
+		bottom: -90px; /* BUG fix */
 	}
 }
 @media (max-width: 768px) { 
@@ -768,6 +756,11 @@ footer .row div:nth-child(2) {
 @media screen and (orientation: landscape) {
 	#banner img {
 		min-height: 90%;
+	}
+}
+@media (max-width: 877px) {
+	#banner ~ #content {
+		margin-top: 210px; /* Header height + (old height - current height) */
 	}
 }
 
