@@ -664,9 +664,22 @@ footer .row div:nth-child(2) {
 #content-wrapper {
 	position: absolute;
 	top: 100%;
+	width: 100%;
 }
 #content-wrapper footer {
 	bottom: -180px;
+}
+
+/* 3.2 - Video Slider */
+#video-slider ol.carousel-indicators {
+	position: relative;
+	bottom: 20px;
+}
+#video-slider ol.carousel-indicators li {
+	border-color: rgb(0, 0, 0);
+}
+#video-slider ol.carousel-indicators li.active {
+	background-color: rgb(0, 0, 0);
 }
 
 /* 3.2 - Sections */
