@@ -46,15 +46,42 @@
 		<div id="content">
 			<section id="video" class="container-fluid">
 				<h2>V&iacute;deo Destacado</h2>
-				<div class="row">
-					<div class="col-sm-6">
-						<!-- TODO: add youtube video iframe or something -->
-						<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
-					</div><!-- end .col-sm-6 -->
-					<div class="col-sm-6">
-						<p class="large">Drumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
-					</div><!-- end .col-sm-6 -->
-				</div><!-- end .row -->
+				<div class="carousel-slide" id="video-slider" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#video-slider" data-slide-to="0"></li>
+						<li data-target="#video-slider" data-slide-to="1"></li>
+						<li data-target="#video-slider" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="row item">
+							<div class="col-sm-6">
+								<!-- TODO: add youtube video iframe or something -->
+								<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+							</div><!-- end .col-sm-6 -->
+							<div class="col-sm-6">
+								<p class="large">Drumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
+							</div><!-- end .col-sm-6 -->
+						</div><!-- end .row -->
+						<div class="row item">
+							<div class="col-sm-6">
+								<!-- TODO: add youtube video iframe or something -->
+								<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+							</div><!-- end .col-sm-6 -->
+							<div class="col-sm-6">
+								<p class="large">asdfasdfDrumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
+							</div><!-- end .col-sm-6 -->
+						</div><!-- end .row -->
+						<div class="row item">
+							<div class="col-sm-6">
+								<!-- TODO: add youtube video iframe or something -->
+								<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+							</div><!-- end .col-sm-6 -->
+							<div class="col-sm-6">
+								<p class="large">asdfDrumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
+							</div><!-- end .col-sm-6 -->
+						</div><!-- end .row -->
+					</div><!-- end .carousel-inner -->
+				</div><!-- end .carousel-slide -->
 			</section><!-- end #video -->
 
 			<hr>
@@ -90,6 +117,7 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
 	<script type="text/javascript">
 	$('#slider').carousel({pause:"hover";interval:2000;});
+	$('#video-slider').carousel({pause:"hover";interval:1500;});
 	</script>
 </body>
 </html>
