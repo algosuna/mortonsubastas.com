@@ -946,7 +946,8 @@ footer .row div:nth-child(2) {
 @media (max-width: 1089px) {
 	.contact-form label,
 	.contact-form textarea,
-	.contact-form input {
+	.contact-form input,
+	.contact-form select {
 		width: 100%;
 		margin: 0;
 	}
@@ -954,12 +955,25 @@ footer .row div:nth-child(2) {
 	.contact-form input {
 		margin: 5px 0 10px 0;
 	}
+	.contact-form select {
+		margin: 10px 0;
+	}
 	.contact-form label {
 		text-align: left;
 		padding: 0;
 	}
 	.contact-form .submit {
 		margin: 0;
+	}
+}
+@media (max-width: 1024px) {
+	.contact-form input,
+	.contact-form textarea {
+		border: 1px solid #ccc!important;
+	}
+	.contact-form select {
+		width: 100%;
+		padding: 0px!important;
 	}
 }
 @media (max-width: 767px) {
