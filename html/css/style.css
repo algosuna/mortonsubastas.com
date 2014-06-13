@@ -9,7 +9,7 @@ Designer and Developer: Andy Osuna
 URL: http://andyosuna.com
 Description: Redesign of website for Morton Casa de Subastas.
 Version: 1.0
-May, 2013
+Date: May, 2013
                  _                                                        
   __ _ _ __   __| |_   _  ___  ___ _   _ _ __   __ _   ___ ___  _ __ ___  
  / _` | '_ \ / _` | | | |/ _ \/ __| | | | '_ \ / _` | / __/ _ \| '_ ` _ \ 
@@ -51,14 +51,19 @@ May, 2013
 	4.1 - Banner
 	4.2 - Banner Responsiveness
 	4.3 - Sections
-	4.4 - Staff
-	4.5 - Staff Responsiveness
+	4.4 - Sections Responsiveness
+	4.5 - Staff
+	4.6 - Staff Responsiveness
 
 5. - Contact: Styles specific to the contact page.
 	5.1 - Resets
 	5.2 - Sizing & Prettying
 	5.3 - Placeholder Compatibility
 	5.4 - Contact Responsiveness
+
+6. - Legal: Styles specific to the legal pages.
+	6.1 - Terminos y Condiciones
+	6.2 - Aviso de Privacidad
 
 *********************************************************
 ********************************************************/
@@ -585,7 +590,7 @@ footer .row div:nth-child(2) {
 		bottom: -90px; /* BUG fix */
 	}
 }
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 	footer {
 		text-align: center;
 	}
@@ -709,6 +714,23 @@ footer .row div:nth-child(2) {
 		padding: 0 50px;
 	}
 }
+@media (max-width: 767px) {
+	#video p{
+		margin-top: 20px;
+	}
+}
+@media (max-width: 399px) {
+	#content {
+		overflow-x: hidden;
+	}
+	#video,
+	#catalogs {
+		padding: 20px 15px;
+	}
+	#video p {
+		margin-top: 10px;
+	}
+}
 
 
 /*
@@ -763,6 +785,7 @@ footer .row div:nth-child(2) {
 
 /* 4.3 - Sections */
 #content {
+	width: 100%; /* BUG fix - goes funky in iOS if width not declared */
 	background-color: rgb(255, 255, 255);
 }
 .cont {
@@ -778,7 +801,20 @@ footer .row div:nth-child(2) {
 	padding-top: 20px;
 }
 
-/* 4.4 - Staff */
+/* 4.4 - Sections Responsiveness */
+@media (max-width: 399px) {
+	.cont {
+		padding: 15px;
+	}
+	#banner ~ #content .cont p.large {
+		font-size: 14px;
+	}
+	#banner ~ #content {
+		overflow-x: hidden;
+	}
+}
+
+/* 4.5 - Staff */
 .staff {
 	display: block;
 	width: 50%;
@@ -811,7 +847,7 @@ footer .row div:nth-child(2) {
 	font-size: 18px;
 }
 
-/* 4.5 - Staff Responsiveness */
+/* 4.6 - Staff Responsiveness */
 @media (max-width: 819px) {
 	.staff {
 		width: 100%;
@@ -910,13 +946,17 @@ footer .row div:nth-child(2) {
 @media (max-width: 1089px) {
 	.contact-form label,
 	.contact-form textarea,
-	.contact-form input {
+	.contact-form input,
+	.contact-form select {
 		width: 100%;
 		margin: 0;
 	}
 	.contact-form textarea,
 	.contact-form input {
 		margin: 5px 0 10px 0;
+	}
+	.contact-form select {
+		margin: 10px 0;
 	}
 	.contact-form label {
 		text-align: left;
@@ -926,7 +966,17 @@ footer .row div:nth-child(2) {
 		margin: 0;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+	.contact-form input,
+	.contact-form textarea {
+		border: 1px solid #ccc!important;
+	}
+	.contact-form select {
+		width: 100%;
+		padding: 0px!important;
+	}
+}
+@media (max-width: 767px) {
 	.contact-form .submit {
 		width: 100%;
 	}
@@ -935,11 +985,13 @@ footer .row div:nth-child(2) {
 	}
 }
 
+
 /*
 
-Terminos y Condiciones
+6. - Legal
 
 */
+/* 6.1 - Terminos y Condiciones */
 .term > ol > li {
 	list-style-type: upper-roman;
 	font-size: 35px;
@@ -965,12 +1017,7 @@ Terminos y Condiciones
 	line-height: 16px;
 }
 
-/*
-
-Aviso de Privacidad
-
-*/
-
+/* 6.2 - Aviso de Privacidad */
 .avis h2:first-of-type {
 	margin-top: 0px;
 }
