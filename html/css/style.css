@@ -590,7 +590,7 @@ footer .row div:nth-child(2) {
 		bottom: -90px; /* BUG fix */
 	}
 }
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 	footer {
 		text-align: center;
 	}
@@ -962,7 +962,7 @@ footer .row div:nth-child(2) {
 		margin: 0;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.contact-form .submit {
 		width: 100%;
 	}
