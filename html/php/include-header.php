@@ -2,19 +2,23 @@
 	<div id="logo" class="pull-left">
 		<a href="/">Morton Casa de Subastas</a>
 	</div><!-- end #logo -->
-
+	<button class="hambarger">
+		<span class="hambar"></span>
+		<span class="hambar"></span>
+		<span class="hambar"></span>
+	</button><!-- end .hambarger -->
 	<nav class="pull-right" role="navigation">
 		<ul>
 			<li><a href="/">Inicio</a></li>
 			<li class="dropdown">
-				<a href="/subastas/" class="dropdown-toggle" data-toggle="dropdown">Subastas</a>
+				<a href="/subastas/" class="dropdown-toggle">Subastas</a>
 				<ul class="dropdown-menu">
 					<li><a href="/subastas/calendario.php">Calendario</a></li>
 					<li><a href="/subastas/resultados.php">Resultados</a></li>
 				</ul><!-- end .dropdown-menu -->
 			</li><!-- end .dropdown -->
-			<li class="dropdown<?//php echo $depCurrent ?>">
-				<a href="/departamentos/" class="dropdown-toggle" data-toggle="dropdown">Departamentos</a>
+			<li class="dropdown">
+				<a href="/departamentos/" class="dropdown-toggle">Departamentos</a>
 				<ul class="dropdown-menu">
 					<li><a href="/departamentos/antiguedades.php">Antig&uuml;edades</a></li>
 					<li><a href="/departamentos/arte-moderno.php">Arte Moderno</a></li>
@@ -27,7 +31,7 @@
 				</ul><!-- end .dropdown-menu -->
 			</li><!-- end .dropdown -->
 			<li class="dropdown">
-				<a href="/catalogos/" class="dropdown-toggle" data-toggle="dropdown">Cat&aacute;logos</a>
+				<a href="/catalogos/" class="dropdown-toggle">Cat&aacute;logos</a>
 				<ul class="dropdown-menu">
 					<li><a href="/catalogos/catalogos-digitales.php">Cat&aacute;logos Digitales</a></li>
 					<li><a href="/catalogos/subsripciones.php">Subscripciones</a></li>

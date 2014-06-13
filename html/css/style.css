@@ -9,7 +9,7 @@ Designer and Developer: Andy Osuna
 URL: http://andyosuna.com
 Description: Redesign of website for Morton Casa de Subastas.
 Version: 1.0
-May, 2013
+Date: May, 2013
                  _                                                        
   __ _ _ __   __| |_   _  ___  ___ _   _ _ __   __ _   ___ ___  _ __ ___  
  / _` | '_ \ / _` | | | |/ _ \/ __| | | | '_ \ / _` | / __/ _ \| '_ ` _ \ 
@@ -51,14 +51,19 @@ May, 2013
 	4.1 - Banner
 	4.2 - Banner Responsiveness
 	4.3 - Sections
-	4.4 - Staff
-	4.5 - Staff Responsiveness
+	4.4 - Sections Responsiveness
+	4.5 - Staff
+	4.6 - Staff Responsiveness
 
 5. - Contact: Styles specific to the contact page.
 	5.1 - Resets
 	5.2 - Sizing & Prettying
 	5.3 - Placeholder Compatibility
 	5.4 - Contact Responsiveness
+
+6. - Legal: Styles specific to the legal pages.
+	6.1 - Terminos y Condiciones
+	6.2 - Aviso de Privacidad
 
 *********************************************************
 ********************************************************/
@@ -205,6 +210,12 @@ nav ul.dropdown-menu > li > a:active {
 	text-decoration: underline;
 	background-color: rgb(255, 255, 255); /* changes the grey to white */
 }
+nav > ul > li:last-child {
+	padding-right: 0;
+}
+nav > ul > li.dropdown:hover ul.dropdown-menu {
+	display: block; /* shows the dropdown on hover */
+}
 header a,
 header a:link,
 header a:visited {
@@ -217,12 +228,6 @@ header a:active {
 }
 header a:active {
 	text-decoration: none;
-}
-nav > ul > li:last-child {
-	padding-right: 0;
-}
-nav > ul > li.dropdown:hover ul.dropdown-menu {
-	display: block; /* shows the dropdown on hover */
 }
 #quick-links {
 	position: absolute;
@@ -240,7 +245,7 @@ nav > ul > li.dropdown:hover ul.dropdown-menu {
 	background-color: rgb(0, 0, 0);
 	position: fixed;
 	top: 0;
-	z-index:10;
+	z-index: 10;
 }
 .scrolled nav {
 	margin: 0;
@@ -261,10 +266,46 @@ nav > ul > li.dropdown:hover ul.dropdown-menu {
 .scrolled ~ #content {
 	position: relative;
 	top: 150px; /* BUG fix */
-	margin-bottom: 150px; /* BUG fix */
 }
 
 /* 2.3 - Header Responsiveness */
+.hambarger {
+	background-color: rgb(65, 64, 66);
+	background-image:none;
+	border:1px solid rgb(167, 169, 172);
+	float:right;
+	margin:0;
+	margin-right:10px;
+	padding:9px 10px;
+	position:relative;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+}
+.hambarger:hover,
+.hambarger:active {
+	background-color: rgb(167, 169, 172);
+}
+.hambarger .hambar {
+	background-color: rgb(167, 169, 172);
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:1px;
+	border-top-left-radius:1px;
+	border-top-right-radius:1px;
+	display:block;
+	height:2px;
+	width:22px;
+
+}
+.hambarger .hambar + .hambar {
+  margin-top: 4px;
+}
+.hambarger:hover > .hambar,
+.hambarger:focus > .hambar,
+.hambarger:active > .hambar {
+	background-color: rgb(255, 255, 255);
+}
 @media (min-width: 955px) and (max-width: 998px) {
 	header nav {
 		font-size: 16px;
@@ -285,14 +326,163 @@ nav > ul > li.dropdown:hover ul.dropdown-menu {
 	}
 	.scrolled ~ #content {
 		top: 90px; /* BUG fix */
-		margin-bottom: 90px; /* BUG fix */
 	}
 }
-@media (max-width: 819px) {
-	header nav {
-		visibility: hidden;
+@media (min-width: 836px) {
+  .hambarger {
+    display: none;
+  }
+}
+@media (max-width: 835px) {
+	.hambarger {
+		display: block;
 	}
-	/* TODO 27/05/14: add the menu for mobile */
+	nav {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 100%;
+		padding: 15px 25px;
+		margin: 0;
+		list-style: none;
+		background: rgb(0, 0, 0);
+		font-size: 14px;
+	}
+	nav > ul {
+		height: 170px;
+	}
+	nav > ul > li {
+		display: block;
+		width: 50%;
+	}
+	nav > ul > li:last-child {
+		padding-top:20px;
+	}
+	nav ul li ul li {
+		width: 50%;
+	}
+	nav ul li,
+	nav ul li.dropdown ul.dropdown-menu {
+		list-style: none;
+		display: block;
+		margin: 0;
+		padding: 0px;
+		float: left;
+	}
+	nav ul li.dropdown ul.dropdown-menu {
+		position: inherit;
+		top: 0;
+		left: 0;
+		z-index: auto;
+		font-size: inherit;
+		background-color: transparent;
+		border-radius: none;
+		border: none;
+		box-shadow: none;
+		width: 100%;
+	}
+	nav ul.dropdown-menu > li > a:hover,
+	nav ul.dropdown-menu > li > a:focus,
+	nav ul.dropdown-menu > li > a:active {
+		background-color: transparent;
+	}
+	li.divider {
+		display: none;
+	}
+	header,
+	nav {
+		-webkit-backface-visibility: hidden;
+		-webkit-perspective: 1000;
+	}
+	.animating nav,
+	.nav-visible nav {
+		display: block;
+		top: -200px;
+		height: 200px;
+	}
+	.animating header {
+		transition: transform .25s ease-in-out;
+		-webkit-transition: -webkit-transform .25s ease-in-out;
+	}
+	.animating.down header  {
+		transform: translate3d( 0, 200px, 0 );
+		-webkit-transform: translate3d( 0, 200px, 0 );
+	}
+	.animating.up header {
+		transform: translate3d( 0, -200px, 0 );
+		-webkit-transform: translate3d( 0, -200px, 0 );
+	}
+	.nav-visible header {
+		position: relative;
+		top: 200px;
+	}
+	.animating #logo,
+	.nav-visible #logo {
+		display: none;
+	}
+	.animating .scrolled #logo,
+	.nav-visible .scrolled #logo {
+		display: block;
+	}
+	.animating #slider .carousel-caption,
+	.nav-visible #slider .carousel-caption {
+		display: none!important;
+	}
+	.nav-visible .scrolled {
+		position: fixed;
+		top: 200px;
+	}
+	.nav-visible .scrolled nav {
+		top: -200px;
+	}
+}
+@media (max-width: 720px) {
+	nav > ul > li {
+		width: 100%;
+		border-bottom: 1px solid #333;
+		padding: 4px;
+	}
+	nav > ul > li:first-child {
+		padding-top: 0;
+	}
+	nav > ul > li:last-child {
+		border-bottom: none;
+		padding: 4px 0 0 4px;
+	}
+	.animating nav,
+	.nav-visible nav {
+		top: -360px;
+		height: 360px;
+	}
+	.animating.down header {
+		transform: translate3d(0, 360px, 0);
+		-webkit-transform: translate3d(0, 360px, 0);
+	}
+	.animating.up header {
+		transform: translate3d(0, -360px, 0);
+		-webkit-transform: translate3d(0, -360px, 0);
+	}
+	.nav-visible header {
+		position: relative;
+		top: 360px;
+	}
+	.nav-visible .scrolled {
+		position: fixed;
+		top: 360px;
+	}
+	.nav-visible .scrolled nav {
+		top: -360px;
+	}
+}
+@media (max-width: 399px) {
+	.hambarger {
+		top: 20px;
+	}
+	.scrolled .hambarger {
+		top: 0;
+		margin-right: 0;
+	}
 }
 
 /* 2.4 - Footer */
@@ -395,7 +585,12 @@ footer .row div:nth-child(2) {
 		bottom: -60px; /* BUG fix */
 	}
 }
-@media (max-width: 768px) { 
+@media (max-width: 835px) {
+	.scrolled ~ footer {
+		bottom: -90px; /* BUG fix */
+	}
+}
+@media (max-width: 767px) { 
 	footer {
 		text-align: center;
 	}
@@ -433,10 +628,9 @@ footer .row div:nth-child(2) {
 #slider {
 	z-index: -1;
 }
-
 #slider ol.carousel-indicators {
+	display: block;
 	bottom: 20px;
-	z-index: 15!important;
 }
 #slider .carousel-inner .item .carousel-caption {
 	bottom: 20px;
@@ -448,7 +642,6 @@ footer .row div:nth-child(2) {
 	text-align: left;
 	display: block;
 	width: 350px;
-	z-index: 20;
 }
 #slider .carousel-inner .item .carousel-caption h3 {
 	color: rgb(255, 255, 255);
@@ -458,7 +651,6 @@ footer .row div:nth-child(2) {
 	min-width: 100%;
 	top: 10%;
 	left: 10%;
-	z-index: -1;
 }
 #slider .carousel-inner .item img:empty {
 	top: 50%;
@@ -469,8 +661,12 @@ footer .row div:nth-child(2) {
 		 -o-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 }
-#slider ~ #content {
-	margin-top: 80vh; /* TODO 30/05/2014: Check compatibility of unit; */
+#content-wrapper {
+	position: absolute;
+	top: 100%;
+}
+#content-wrapper footer {
+	bottom: -180px;
 }
 
 /* 3.2 - Sections */
@@ -509,9 +705,6 @@ footer .row div:nth-child(2) {
 	}
 }
 @media (max-width: 877px) {
-	#slider ~ #content {
-		margin-top: 88vh; /* TODO 30/05/2014: Check compatibility of unit; */
-	}
 	#slider ol.carousel-indicators {
 		display: none;
 	}
@@ -519,6 +712,23 @@ footer .row div:nth-child(2) {
 		width: 100%;
 		left: 0;
 		padding: 0 50px;
+	}
+}
+@media (max-width: 767px) {
+	#video p{
+		margin-top: 20px;
+	}
+}
+@media (max-width: 399px) {
+	#content {
+		overflow-x: hidden;
+	}
+	#video,
+	#catalogs {
+		padding: 20px 15px;
+	}
+	#video p {
+		margin-top: 10px;
 	}
 }
 
@@ -567,9 +777,15 @@ footer .row div:nth-child(2) {
 		min-height: 90%;
 	}
 }
+@media (max-width: 877px) {
+	#banner ~ #content {
+		margin-top: 210px; /* Header height + (old height - current height) */
+	}
+}
 
 /* 4.3 - Sections */
 #content {
+	width: 100%; /* BUG fix - goes funky in iOS if width not declared */
 	background-color: rgb(255, 255, 255);
 }
 .cont {
@@ -585,7 +801,20 @@ footer .row div:nth-child(2) {
 	padding-top: 20px;
 }
 
-/* 4.4 - Staff */
+/* 4.4 - Sections Responsiveness */
+@media (max-width: 399px) {
+	.cont {
+		padding: 15px;
+	}
+	#banner ~ #content .cont p.large {
+		font-size: 14px;
+	}
+	#banner ~ #content {
+		overflow-x: hidden;
+	}
+}
+
+/* 4.5 - Staff */
 .staff {
 	display: block;
 	width: 50%;
@@ -618,7 +847,7 @@ footer .row div:nth-child(2) {
 	font-size: 18px;
 }
 
-/* 4.5 - Staff Responsiveness */
+/* 4.6 - Staff Responsiveness */
 @media (max-width: 819px) {
 	.staff {
 		width: 100%;
@@ -717,13 +946,17 @@ footer .row div:nth-child(2) {
 @media (max-width: 1089px) {
 	.contact-form label,
 	.contact-form textarea,
-	.contact-form input {
+	.contact-form input,
+	.contact-form select {
 		width: 100%;
 		margin: 0;
 	}
 	.contact-form textarea,
 	.contact-form input {
 		margin: 5px 0 10px 0;
+	}
+	.contact-form select {
+		margin: 10px 0;
 	}
 	.contact-form label {
 		text-align: left;
@@ -733,7 +966,17 @@ footer .row div:nth-child(2) {
 		margin: 0;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+	.contact-form input,
+	.contact-form textarea {
+		border: 1px solid #ccc!important;
+	}
+	.contact-form select {
+		width: 100%;
+		padding: 0px!important;
+	}
+}
+@media (max-width: 767px) {
 	.contact-form .submit {
 		width: 100%;
 	}
@@ -742,11 +985,13 @@ footer .row div:nth-child(2) {
 	}
 }
 
+
 /*
 
-Terminos y Condiciones
+6. - Legal
 
 */
+/* 6.1 - Terminos y Condiciones */
 .term > ol > li {
 	list-style-type: upper-roman;
 	font-size: 35px;
@@ -772,12 +1017,7 @@ Terminos y Condiciones
 	line-height: 16px;
 }
 
-/*
-
-Aviso de Privacidad
-
-*/
-
+/* 6.2 - Aviso de Privacidad */
 .avis h2:first-of-type {
 	margin-top: 0px;
 }
