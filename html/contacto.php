@@ -1,4 +1,4 @@
-<?php require 'http://mortonsubastas.andyosuna.com/php/parse-contact.php'; ?>
+<?php require '/home1/andrea/public_html/sites/mortonsubastas.com/html/php/parse-contact.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

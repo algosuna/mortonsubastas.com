@@ -1,5 +1,5 @@
 <?php
-include_once 'http://mortonsubastas.andyosuna.com/lol/stpdtbs.php';
+include_once '/home1/andrea/public_html/sites/mortonsubastas.com/html/lol/stpdtbs.php';
 
 function clean_input($input){
 	return mysql_real_escape_string(strip_tags(trim($input)));
