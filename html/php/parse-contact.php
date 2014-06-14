@@ -16,11 +16,11 @@ if (isset($_POST['did_send']) == 'true') {
 		$dpErr		= "<div class='alert alert-warning'>Por favor seleccione el departamento que desea contactar.</div>";
 	} elseif ($dept == 'ate') {
 		$valid		= true;
-		$department	= "Atenci&oacute;n a Clientes";
+		$department	= "Atención a Clientes";
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'ant') {
 		$valid		= true;
-		$department	= "Antig&uuml;edades";
+		$department	= "Antigüedades";
 		$deptemail	= 'info@andyosuna.com';
 	} elseif ($dept == 'art') {
 		$valid		= true;
@@ -28,7 +28,7 @@ if (isset($_POST['did_send']) == 'true') {
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'joy') {
 		$valid		= true;
-		$department	= "Joyer&iacute;a";
+		$department	= "Joyería";
 		$deptemail	= 'info@andyosuna.com';
 	} elseif ($dept == 'lib') {
 		$valid		= true;
@@ -44,7 +44,7 @@ if (isset($_POST['did_send']) == 'true') {
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'emp') {
 		$valid		= true;
-		$department	= "Empe&ntilde;os";
+		$department	= "Empeños";
 		$deptemail	= 'info@andyosuna.com';
 	} else {
 		$valid		= true;
@@ -70,7 +70,7 @@ if (isset($_POST['did_send']) == 'true') {
 	$subject	=	"Atencion a " . $department . " | mortonsubastas.com";
 	$body		=	'<html><body style="background-color: #000; padding: 20px;">';
 	$body		.=	'<img src="http://mortonsubastas.andyosuna.com/images/logo.png" style="padding-bottom: 20px;" alt="Morton Casa de Subastas" />';
-	$body		.=	'<table rules="all" style="border-color: #666; width=100%;" cellpadding="20">';
+	$body		.=	'<table rules="all" style="border-color: #666; width: 100%;" cellpadding="20">';
 	$body		.=	"<tr style='background: #eee;'><td><strong>Nombre:</strong></td><td>" . $name . "</td></tr>";
 	$body		.=	"<tr style='background: #fff;'><td><strong>Correo:</strong></td><td>" . $email . "</td></tr>";
 	$body		.=	"<tr style='background: #fff;'><td><strong>Mensaje:</strong></td><td>" . $message . "</td></tr>";
@@ -87,7 +87,7 @@ if (isset($_POST['did_send']) == 'true') {
 	if ($valid == true) {
 		$mail_sent	=	mail($to, $subject, $body, $headers);
 		if ($mail_sent == 1) {
-			$notification	=	"<div class='alert alert-success'>Gracias por su correo, ".$name.". Le responderemos en cuanto nos sea posible.</div>";// TODO 05-06-2014: add the social media
+			$notification	=	"<div class='alert alert-success'>Gracias por su correo, " . $name . ". Le responderemos en cuanto nos sea posible.</div>";// TODO 05-06-2014: add the social media
 		} else {
 			$notification	=	"<div class='alert alert-danger'>Lo sentimos, algo sali&oacute; mal. Su mensaje no fue enviado. Por favor env&iacute;enos un correo e inf&oacute;rmenos del error. <a href='mailto:info@andyosuna.com' class='alert-link'>info@andyosuna.com</a></div>";
 		}
