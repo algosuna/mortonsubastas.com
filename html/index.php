@@ -12,34 +12,34 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="slider" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#slider" data-slide-to="0" class="active"></li>
-				<li data-target="#slider" data-slide-to="1"></li>
-				<li data-target="#slider" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="/images/slides/slide-1.jpg" alt="Subasta de Joyer&iacute;a">
-					<div class="carousel-caption">
-						<h3>Subasta de Joyer&iacute;a</h3>
-						<p>Relojes y Mobiliario Europeo <br><a href="#">Ver Evento -></a></p>
-					</div>
-				</div>
-				<div class="item">
-					<img src="/images/slides/slide-2.jpg" alt="Subasta de Vinos">
-					<div class="carousel-caption">
-						<h3>Subasta de Vinos</h3>
-						<p>de Colecci&oacute;n, uso Diario y Destilados <br><a href="#">Ver Evento -></a></p>
-					</div>
-				</div>
-				<div class="item">
-					<img src="/images/slides/slide-3.jpg" alt="Subasta de Grabados">
-					<div class="carousel-caption">
-						<h3>Subasta de Grabados</h3>
-						<p>Fotograf&iacute;a, Documentos Escritos y Manuscritos, Mapas, Libros Antig&uuml;os y Contempor&aacute;neos <br>(Incluye 12 Lotes de la Biblioteca Ecl&eacute;tica MONCLAU) <a href="#">Ver Evento -></a></p>
-					</div>
+		<ol class="carousel-indicators">
+			<li data-target="#slider" data-slide-to="0" class="active"></li>
+			<li data-target="#slider" data-slide-to="1"></li>
+			<li data-target="#slider" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="/images/slides/slide-1.jpg" alt="Subasta de Joyer&iacute;a">
+				<div class="carousel-caption">
+					<h3>Subasta de Joyer&iacute;a</h3>
+					<p>Relojes y Mobiliario Europeo <br><a href="#">Ver Evento -></a></p>
 				</div>
 			</div>
+			<div class="item">
+				<img src="/images/slides/slide-2.jpg" alt="Subasta de Vinos">
+				<div class="carousel-caption">
+					<h3>Subasta de Vinos</h3>
+					<p>de Colecci&oacute;n, uso Diario y Destilados <br><a href="#">Ver Evento -></a></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="/images/slides/slide-3.jpg" alt="Subasta de Grabados">
+				<div class="carousel-caption">
+					<h3>Subasta de Grabados</h3>
+					<p>Fotograf&iacute;a, Documentos Escritos y Manuscritos, Mapas, Libros Antig&uuml;os y Contempor&aacute;neos <br>(Incluye 12 Lotes de la Biblioteca Ecl&eacute;tica MONCLAU) <a href="#">Ver Evento -></a></p>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<div id="content-wrapper">
