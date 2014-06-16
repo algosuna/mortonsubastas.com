@@ -238,8 +238,11 @@ header a:active {
 	top: 20px;
 	right: 50px;
 }
-#quick-links a:first-child {
-	margin-right: 20px;
+#quick-links a {
+	margin: 0 10px;
+}
+#quick-links a:last-child {
+	margin-right: 0px;
 }
 
 /* 2.2 - Header Scrolled */

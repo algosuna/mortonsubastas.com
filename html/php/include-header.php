@@ -45,5 +45,6 @@
 	<div id="quick-links">
 		<a href="#">Mi Morton</a>
 		<a href="/ayuda.php">Ayuda</a>	
+		<a href="#">B&uacute;squeda</a>
 	</div><!-- end #quick-links -->
 </header>
