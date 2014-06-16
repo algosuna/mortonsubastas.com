@@ -60,6 +60,7 @@ Date: May, 2013
 	5.2 - Sizing & Prettying
 	5.3 - Placeholder Compatibility
 	5.4 - Contact Responsiveness
+	5.5 - iOS Bug Fixes
 
 6. - Legal: Styles specific to the legal pages.
 	6.1 - Terminos y Condiciones
@@ -982,7 +983,7 @@ footer .row div:nth-child(2) {
 @media (max-width: 1024px) {
 	.contact-form input,
 	.contact-form textarea {
-		border: 1px solid #ccc!important;
+		border: 1px solid #ccc !important;
 	}
 	.contact-form select {
 		width: 100%;
@@ -996,6 +997,12 @@ footer .row div:nth-child(2) {
 	.cont iframe {
 		margin-top: 50px;
 	}
+}
+
+/* 5.5 - iOS Bug Fixes */
+.touchfix #banner {
+	position: absolute;
+	overflow: hidden;
 }
 
 

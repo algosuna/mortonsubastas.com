@@ -4,34 +4,34 @@ require_once '/home1/andrea/public_html/sites/mortonsubastas.com/html/lol/vldt.p
 $name = $email = $dept = $message = $valid = $department = $deptemail = $nmErr = $emErr = $msErr = $dpErr = $to = $subject = $body = $headers = $mail_sent = $notification = "";
 
 if (isset($_POST['did_send']) == 'true') {
-	$name	=	clean_input($_POST['name']);
+	$name		=	clean_input($_POST['name']);
 	$email	=	clean_input($_POST['email']);
-	$dept	=	clean_input($_POST['dept']);
+	$dept		=	clean_input($_POST['dept']);
 	$message=	clean_input($_POST['message']);
 	$valid	=	true;
 
 // TODO 05-06-2014: Get department emails!
 	if (strlen($dept) == 0) {
-		$valid		= false;
-		$dpErr		= "<div class='alert alert-warning'>Por favor seleccione el departamento que desea contactar.</div>";
+		$valid	= false;
+		$dpErr	= "<div class='alert alert-warning'>Por favor seleccione el departamento que desea contactar.</div>";
 	} elseif ($dept == 'ate') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Atención a Clientes";
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'ant') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Antigüedades";
 		$deptemail	= 'info@andyosuna.com';
 	} elseif ($dept == 'art') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Arte Moderno";
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'joy') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Joyería";
 		$deptemail	= 'info@andyosuna.com';
 	} elseif ($dept == 'lib') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Libros y Documentos";
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'vin') {
@@ -39,15 +39,15 @@ if (isset($_POST['did_send']) == 'true') {
 		$department	= "Vinos";
 		$deptemail	= 'info@andyosuna.com';
 	} elseif ($dept == 'opo') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Oportunidades";
 		$deptemail	= 'andyosuna@gmail.com';
 	} elseif ($dept == 'emp') {
-		$valid		= true;
+		$valid			= true;
 		$department	= "Empeños";
 		$deptemail	= 'info@andyosuna.com';
 	} else {
-		$valid		= true;
+		$valid	= true;
 	}
 
 
@@ -67,7 +67,7 @@ if (isset($_POST['did_send']) == 'true') {
 
 
 	$to			=	$deptemail;
-	$subject	=	"Atencion a " . $department . " | mortonsubastas.com";
+	$subject=	"Atencion a " . $department . " | mortonsubastas.com";
 	$body		=	'<html><body style="background-color: #000; padding: 20px;">';
 	$body		.=	'<img src="http://mortonsubastas.andyosuna.com/images/logo.png" style="padding-bottom: 20px;" alt="Morton Casa de Subastas" />';
 	$body		.=	'<table rules="all" style="border-color: #666; width: 100%;" cellpadding="20">';
@@ -76,12 +76,12 @@ if (isset($_POST['did_send']) == 'true') {
 	$body		.=	"<tr style='background: #fff;'><td><strong>Mensaje:</strong></td><td>" . $message . "</td></tr>";
 	$body		.=	"</table>";
 	$body		.=	"</body></html>";
-	$headers	=	"From: " . $email . "\r\n";
-	$headers	.=	"Reply-to: " . $email . "\r\n";
-	$headers	.=	"CC: andyosuna@gmail.com\r\n";
-						// TODO 04-06-2014: change to atencion a clientes' email
-	$headers	.=	"MIME-version: 1.0\r\n";
-	$headers	.=	"Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers=	"From: " . $email . "\r\n";
+	$headers.=	"Reply-to: " . $email . "\r\n";
+	$headers.=	"CC: andyosuna@gmail.com\r\n";
+					// TODO 04-06-2014: change to atencion a clientes' email
+	$headers.=	"MIME-version: 1.0\r\n";
+	$headers.=	"Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 
 	if ($valid == true) {
