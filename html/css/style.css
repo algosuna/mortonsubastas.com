@@ -832,6 +832,9 @@ footer .row div:nth-child(2) {
 	#banner ~ #content {
 		overflow-x: hidden;
 	}
+	ol.breadcrumb {
+		margin: 20px 0 0 15px;
+	}
 }
 
 /* 4.5 - Staff */
