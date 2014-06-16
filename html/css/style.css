@@ -108,6 +108,9 @@ h1 small {
 	color: rgb(180, 151, 90);
 	font-weight: normal;
 }
+h2 small {
+	font-weight: 200;
+}
 
 /* 0.3 - Other */
 *:focus {
@@ -808,6 +811,9 @@ footer .row div:nth-child(2) {
 .cont h2 {
 	margin: 0 0 40px 0;
 }
+.cont:last-of-type h2 {
+	margin: 0 0 10px 0;
+} /* .cont > .staff must always be last. */
 .cont > img {
 	margin: 0 0 50px 50px;
 }

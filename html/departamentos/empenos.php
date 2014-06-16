@@ -1,7 +1,3 @@
-<?php 
-//include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
-//$pageId = "emp";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,6 +6,11 @@
 	<title>Morton Casa de Subastas - Empe&ntilde;os</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<style type="text/css">
+	table tr td:first-of-type {
+		font-weight: bold;
+	}
+	</style>
 </head>
 
 <body>
@@ -31,59 +32,84 @@
 
 		<section class="cont">
 
-			<h2 class="align-left">Descripci&oacute;n</h2>
+			<h2 class="align-left">Morton Empe&ntilde;os <small>una soluci&oacute;n a sus problemas financieros.</small></h2>
 
 			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
-			<p>Bacon ipsum dolor sit amet turkey tail pork belly, rump tenderloin ham t-bone pork. Andouille swine tail pork loin ball tip ham ham hock sirloin beef doner tri-tip. Pork loin strip steak kevin frankfurter flank.</p>
-			<p>Bacon kevin strip steak, pancetta hamburger frankfurter andouille kielbasa meatloaf jerky shoulder cow ground round prosciutto. Beef ribs sausage doner tongue chicken.</p>
+			<p>Si usted requiere de liquidez inmediata; a trav&eacute;s de sus piezas de arte, joyer&iacute;a, relojes, plater&iacute;a, libros, vinos y antig&uuml;edades, le ofrecemos un sistema de financiamiento con la oportunidad de subastar sus piezas o recuperarlas.</p>
+			<p>Manejamos dos tipos de financiamiento:</p>
+			<ul>
+				<li><strong>Financiamiento Tradicional:</strong> Para quienes desean recuperar sus piezas.</li>
+				<li><strong>Financiamiento de Puente:</strong> Para quienes desean vender en subasta y requieren un adelanto de la pieza.</li>
+			</ul>
+			
+			<br class="clearfix">
 
+			<h3>Tabla de T&eacute;rminos y Condiciones</h3>
+			<div class="table-responsive">
+				<table class="table table-bordered">
+						<tr>
+							<td>Porcentaje del pr&eacute;stamo conforme el aval&uacute;o de la prenda</td>
+							<td>20%</td>
+						</tr>
+						<tr>
+							<td>Ramo de prendas aceptadas</td>
+							<td>Joyer&iacute;a, Relojes, Antig&uuml;edades, Arte Moderno, Esculturas, Plateria, Marfil, Libros y Vinos.</td>
+						</tr>
+						<tr>
+							<td>D&iacute;as de Horario de servicio</td>
+							<td>
+								Lunes a Viernes: 09:30 a 14:30 y 15:30 a 19:00Hrs<br>
+								S&aacute;bados: 10:00 a 13:00Hrs.
+							</td>
+						</tr>
+						<tr>
+							<td>Tasa de inter&eacute;s anualizada sobre saldos insoluto</td>
+							<td>
+								De $1.00 a $14,599.00  = 42% + IVA<br>
+								De $15,000 a $29,999.00 = 36% + IVA<br>
+								De $30,000 a $99,999.00 = 30% + IVA<br>
+								De $100,000 en adelante = 24% + IVA
+							</td>
+						</tr>
+						<tr>
+							<td>Gastos de Conservaci&oacute;n  y Almacenaje Mensual</td>
+							<td>3.5% + IVA Sobre el valor de la cantidad dada en mutuo</td>
+						</tr>
+						<tr>
+							<td>CAT (Costo Anual Total)</td>
+							<td>
+								De $1.00 a $14,999.00 = 97.44% con IVA<br>
+								De $15,000 a $29,999.00 = 90.48% con IVA<br>
+								De $30,000 a $99,999.00 = 83.52% con IVA<br>
+								De $100,000 en adelante = 76.56% con IVA
+							</td>
+						</tr>
+						<tr>
+							<td>Costo mensual totalizado sobre saldos insolutos</td>
+							<td>
+								De $1.00 a $14,999.00 = 8.12%<br>
+								De $15,000 a $29,999.00 = 7.54%<br>
+								De $30,000 a $99,999.00 = 6.96%<br>
+								De $100,000 en adelante = 6.38%
+							</td>
+						</tr>
+						<tr>
+							<td>Costo diario totalizado sobre saldos insolutos</td>
+							<td>
+								De $1.00 a $14,999.00 = 0.2706%<br>
+								De $15,000 a $29,999.00 = 0.2513%<br>
+								De $30,000 a $99,999.00 = 0.2320%<br>
+								De $100,000 en adelante = 0.2126%
+							</td>
+						</tr>
+						<tr>
+							<td>Plazo de pago</td>
+							<td>30 d&iacute;as</td>
+						</tr>
+				</table>
+			</div>
 
 		</section>
-
-		<hr>
-
-		<section class="cont">
-
-			<h2 class="align-left">Pr&oacute;ximos Eventos</h2>
-
-			<div class="table-responsive">
-				<table class="table">
-					<thead>
-						<tr>
-							<th>&nbsp;</th>
-							<th>Evento</th>
-							<th>Fecha</th>
-							<th>Hora</th>
-							<th>Lugar</th>
-							<th>Descripci&oacute;n</th>
-						</tr>
-					</thead><!-- end thead -->
-					<tbody>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-					</tbody><!-- end tbody -->
-				</table><!-- end .table -->
-			</div><!-- end .table-responsive -->
-
-		</section><!-- end .cont -->
 
 		<hr>
 
@@ -94,20 +120,18 @@
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
-					<h3>Pork Loin</h3>
-					<h4>Bacon Specialist</h4>
-					<h5>10 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<h3>Giselle Beltran</h3>
+					<h4>Gerente Morton Empe&ntilde;os</h4>
+					<p>Cuenta con una trayectoria de m&aacute;s de 15 a&ntilde;os de experiencia en atenci&oacute;n a Clientes Premier, banca y servicios financieros.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
-					<h3>Sirloin Salami</h3>
-					<h4>Drumstick Specialist</h4>
-					<h5>11 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<h3>Hector Paez</h3>
+					<h4>Servicio a clientes Morton Empe&ntilde;os</h4>
+					<p>Con experiencia de m&aacute;s de 13 a&ntilde;os en administraci&oacute;n y atenci&oacute;n a clientes. Actualmente forma parte de nuestro equipo de subastadores.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
