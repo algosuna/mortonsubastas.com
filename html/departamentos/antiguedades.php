@@ -1,7 +1,3 @@
-<?php 
-//include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
-//$pageId = "ant";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,59 +27,14 @@
 
 		<section class="cont">
 
-			<h2 class="align-left">Descripci&oacute;n</h2>
+			<h2 class="align-left">La continuidad de una obra de arte</h2>
 
 			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
-			<p>Bacon ipsum dolor sit amet turkey tail pork belly, rump tenderloin ham t-bone pork. Andouille swine tail pork loin ball tip ham ham hock sirloin beef doner tri-tip. Pork loin strip steak kevin frankfurter flank.</p>
-			<p>Bacon kevin strip steak, pancetta hamburger frankfurter andouille kielbasa meatloaf jerky shoulder cow ground round prosciutto. Beef ribs sausage doner tongue chicken.</p>
-
+			<p>Una Antig&uuml;edad es sin&oacute;nimo de encanto y distinci&oacute;n; denota buen gusto y elegancia dentro de cualquier colecci&oacute;n.</p>
+			<p>En el Departamento de Antig&uuml;edades nos preocupamos por ofrecerle el mayor lujo y la m&aacute;s alta calidad en cada subasta. Nos deleitamos en presentar la mejor selecci&oacute;n de porcelana, plata, relojes, marfiles, tapetes, alfombras, mobiliario, cristal, pintura, escultura y militar&iacute;a para nuestros clientes nacionales e internacionales.</p>
+			<p>Le invitamos a formar parte de esta experiencia consignando sus objetos. Nuestro equipo de especialistas con mucho gusto lo asesorar&aacute; sobre el valor de sus piezas con base en sus materiales, calidad y técnica de decoraci&oacute;n. Ellos le brindar&aacute;n una referencia de precio fundamentada en el mercado de subastas que lo orientar&aacute; para la venta de sus objetos en subasta.</p>
 
 		</section>
-
-		<hr>
-
-		<section class="cont">
-
-			<h2 class="align-left">Pr&oacute;ximos Eventos</h2>
-
-			<div class="table-responsive">
-				<table class="table">
-					<thead>
-						<tr>
-							<th>&nbsp;</th>
-							<th>Evento</th>
-							<th>Fecha</th>
-							<th>Hora</th>
-							<th>Lugar</th>
-							<th>Descripci&oacute;n</th>
-						</tr>
-					</thead><!-- end thead -->
-					<tbody>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-					</tbody><!-- end tbody -->
-				</table><!-- end .table -->
-			</div><!-- end .table-responsive -->
-
-		</section><!-- end .cont -->
 
 		<hr>
 
@@ -94,20 +45,30 @@
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
-					<h3>Pork Loin</h3>
-					<h4>Bacon Specialist</h4>
-					<h5>10 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<h3>Miguel Aguilar Trejo</h3>
+					<p>Estudi&oacute; la carrera de Arqueolog&iacute;a en la Escuela Nacional de Antropolog&iacute;a e Historia.</p>
+					<p>Combin&oacute; sus estudios con su trabajo como colaborador en el Proyecto Arqueol&oacute;gico de Xochimilco (Salvamento Arqueol&oacute;gico) durante 3 a&ntilde;os.</p>
+					<p>Desde 1998 ha colaborado en el Departamento de Antig&uuml;edades de Morton Casa de Subastas como valuador y catalogador.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
-					<h3>Sirloin Salami</h3>
-					<h4>Drumstick Specialist</h4>
-					<h5>11 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<h3>Eduardo Lopez Morton</h3>
+					<p> Licenciado en Relaciones Internacionales con un Diplomado en Historia del Arte por la Universidad Anahuac Norte. Curs&oacute; el programa de Art and its markets en Sotheby's Londres y colabor&oacute; en la casa de subastas Wooley and Wallis en Salisbury Inglaterra.</p>
+					<p>Desde 2006 es colaborador en Morton, Casa de Subastas. Ha fungido como martillero en mas de 250 subastas a nivel nacional e internacional.</p>
+				</div><!-- end .staff-box -->
+			</div><!-- end .staff -->
+
+			<div class="staff">
+				<div class="staff-box">
+					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
+					<h3>Carlos Mill&aacute;n</h3>
+					<p>Estudi&oacute; la carrera en Disciplina del Arte, la M&uacute;sica y el Espect&aacute;culo en la Universidad de Padua en Italia. Tom&oacute; un curso de especializaci&oacute;n en curadur&iacute;a en la galer&iacute;a A+A en Venecia, sede del pabell&oacute;n esloveno durante la Bienal.</p>
+					<p>Trabaj&oacute; como curador de algunas muestras en Padua y como especialista y asesor en la galer&iacute;a Ca' Rezzonico en Venecia.</p>
+					<p>Fue becado por el FONCA para realizar una maestr&iacute;a en Bellas Artes y Artes Decorativas en el Instituto de Arte de Sotheby's en Londres durante un a&ntilde;o, especializ&aacute;ndose en pintura europea.</p>
+					<p>Se ha desempe&ntilde;ado en Instituciones como el Museo de la Bas&iacute;lica de Guadalupe, el Museo Soumaya y Morton, Casa de Subasta.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
