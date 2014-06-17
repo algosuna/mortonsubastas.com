@@ -62,3 +62,4 @@ The following were used as a framework, for troubleshooting and inspiration:
 * A customized version of Twitter's [Bootstrap](https://github.com/twbs/bootstrap/) was used.
 * Andy Peatling's nice [smooth mobile menu](https://github.com/apeatling/smooth-mobile-menu) is awesome.
 * For iOS compatibility [Modernizr](https://github.com/Modernizr/Modernizr) was used.
+* For galleries, Lokesh's [lightbox](https://github.com/lokesh/lightbox2/) looks great.
