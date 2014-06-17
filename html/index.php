@@ -97,13 +97,13 @@
 					</div><!-- end .col-md-4 -->
 					<div class="col-md-4 col-sm-6">
 						<div class="cat">
-							<img src="/images/catalogs/cat-antiguedades.jpg" alt="Subasta de Antig&uuml;edades" title="Subasta de Antig&uuml;edades">
+							<img src="/images/catalogs/cat-libros.jpg" alt="Subasta de Libros y Documentos" title="Subasta de Libros y Documentos">
 							<a href="#">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
 					</div><!-- end .col-md-4 -->
 					<div class="col-md-4 col-sm-6">
 						<div class="cat">
-							<img src="/images/catalogs/cat-joyeria.jpg" alt="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;" title="Subasta de Relojes y Joyer&iacute;a de la Fundaci&oacute;n Dond&eacute;">
+							<img src="/images/catalogs/cat-artemoderno.jpg" alt="Subasta de Arte Moderno" title="Subasta de Arte Moderno">
 							<a href="#">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
 					</div><!-- end .col-md-4 -->
