@@ -32,7 +32,7 @@
 				<small>Artes Decorativas y Dise&ntilde;o. De las vanguardias a lo contempor&aacute;neo.</small>
 			</h2>
 
-			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
+			<img src="/images/cont-oportunidades.jpg" width="306" height="198" class="pull-right">
 			<p>Cada s&aacute;bado en nuestro Sal&oacute;n Moliere gran cantidad de piezas art&iacute;sticas y enseres decorativos, se programan para ser subastados profesionalmente bajo un ambiente seguro, confiable, honesto y transparente. Nuestras subastas conjugan de forma singular la posibilidad de colocar atractivamente en mercado las piezas que se deseen vender en tanto que al sector de compradores les brinda la opci&oacute;n de acercarse a un universo de objetos selectos para su disfrute, inversi&oacute;n y uso.</p>
 			<p>Nuestra divisi&oacute;n contempla principalmente la consignaci&oacute;n y venta de objetos como cristaler&iacute;as, porcelanas, plater&iacute;a, mobiliario, pinturas, esculturas, alfombras, l&aacute;mparas y candiles, entre otros.</p>
 
