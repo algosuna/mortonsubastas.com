@@ -177,6 +177,8 @@ ol.breadcrumb {
 /* 2.1 - Header */
 header {
 	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
 	height: 150px;
 	padding: 50px;
 }
@@ -247,6 +249,7 @@ header a:active {
 
 /* 2.2 - Header Scrolled */
 .scrolled {
+	max-width: 100%;
 	height: 60px;
 	padding: 15px;
 	background-color: rgb(0, 0, 0);
@@ -501,6 +504,10 @@ footer {
 	background-color: rgb(65, 64, 66);
 	color: rgb(167, 169, 172);
 }
+footer > .row {
+	max-width: 1280px;
+	margin: 0 auto;
+}
 #footer-links {
 	list-style: none;
 	padding: 20px 0 0 30px;
@@ -673,6 +680,8 @@ footer .row div:nth-child(2) {
 	position: absolute;
 	top: 100%;
 	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
 }
 #content-wrapper footer {
 	bottom: -180px;
@@ -808,6 +817,8 @@ footer .row div:nth-child(2) {
 #content {
 	width: 100%; /* BUG fix - goes funky in iOS if width not declared */
 	background-color: rgb(255, 255, 255);
+	max-width: 1280px;
+	margin: 0 auto;
 }
 .cont {
 	padding: 50px;
