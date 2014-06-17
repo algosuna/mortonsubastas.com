@@ -53,3 +53,12 @@ Other Notes
 
 For any questions regarding the design please contact me by email at [info@andyosuna.com](mailto:info@andyosuna.com) or create an issue on [GitHub](https://github.com/andyosuna/mortonsubastas.com/issues?state=open)
 
+
+Resources
+-------------
+
+The following were used as a framework, for troubleshooting and inspiration:
+
+* A customized version of Twitter's [Bootstrap](https://github.com/twbs/bootstrap/) was used.
+* Andy Peatling's nice [smooth mobile menu](https://github.com/apeatling/smooth-mobile-menu) is awesome.
+* For iOS compatibility [Modernizr](https://github.com/Modernizr/Modernizr) was used.
