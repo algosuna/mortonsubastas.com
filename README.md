@@ -51,5 +51,5 @@ Coding Guidelines
 Other Notes
 ----------------
 
-For any questions regarding the design please contact me by email at (info@andyosuna.com)[mailto:info@andyosuna.com] or create an issue on (GitHub)[https://github.com/andyosuna/mortonsubastas.com/issues?state=open]
+For any questions regarding the design please contact me by email at [info@andyosuna.com](mailto:info@andyosuna.com) or create an issue on [GitHub](https://github.com/andyosuna/mortonsubastas.com/issues?state=open)
 
