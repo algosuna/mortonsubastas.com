@@ -34,7 +34,7 @@
 
 			<h2 class="align-left">Morton Empe&ntilde;os <small>una soluci&oacute;n a sus problemas financieros.</small></h2>
 
-			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
+			<img src="/images/cont-empenos.jpg" width="306" height="198" class="pull-right">
 			<p>Si usted requiere de liquidez inmediata; a trav&eacute;s de sus piezas de arte, joyer&iacute;a, relojes, plater&iacute;a, libros, vinos y antig&uuml;edades, le ofrecemos un sistema de financiamiento con la oportunidad de subastar sus piezas o recuperarlas.</p>
 			<p>Manejamos dos tipos de financiamiento:</p>
 			<ul>
