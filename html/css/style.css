@@ -9,7 +9,7 @@ Designer and Developer: Andy Osuna
 URL: http://andyosuna.com
 Description: Redesign of website for Morton Casa de Subastas.
 Version: 1.0
-Date: May, 2013
+Date: May, 2014
                  _                                                        
   __ _ _ __   __| |_   _  ___  ___ _   _ _ __   __ _   ___ ___  _ __ ___  
  / _` | '_ \ / _` | | | |/ _ \/ __| | | | '_ \ / _` | / __/ _ \| '_ ` _ \ 
@@ -506,7 +506,8 @@ footer {
 	padding: 20px 0 0 30px;
 }
 footer .row div:nth-child(2) {
-	padding-top:30px; /* targets the morton footer logo */
+	padding-top:30px; /* targets the morton footer logo div */
+	text-align: center;
 }
 .scrolled ~ footer {
 	bottom: -150px; /* BUG fix */
