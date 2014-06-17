@@ -45,11 +45,11 @@ Coding Guidelines
 **Two:** 
 
 1. Add your content inside ``<div class="cont"></div>``
-2. Follow the guidelines stated on **style-guide.php**.
+2. Code according to this [Code Guide](http://mdo.github.io/code-guide/) by [@mdo](https://twitter.com/mdo)
 
 
-Usernames & Passwords
----------------------
+Other Notes
+----------------
 
-*Empty*
+For any questions regarding the design please contact me by email at (info@andyosuna.com)[mailto:info@andyosuna.com] or create an issue on (GitHub)[https://github.com/andyosuna/mortonsubastas.com/issues?state=open]
 
