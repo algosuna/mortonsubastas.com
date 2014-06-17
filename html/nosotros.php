@@ -6,6 +6,7 @@
 	<title>Morton Casa de Subastas - Nosotros</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 		<img src="/images/banners/dep-arte-moderno.jpg">
 	</section>
 
-	<div id="content">
+	<div id="content" class="clearfix">
 
 		<h1>Nosotros</h1>
 
@@ -24,7 +25,7 @@
 			<li class="active">Nosotros</li>
 		</ol>
 
-		<section class="cont">
+		<section class="cont pull-left">
 
 			<p>En Morton, Casa de Subastas tenemos claro lo que conforma nuestra filosof&iacute;a de empresa: Darle valor a las cosas que otorgan sabor a la vida, proceder con incansable actitud de servicio y conservar un apego total a la honestidad.</p>
 
@@ -46,15 +47,15 @@
 
 			<p>Adem&aacute;s, tenemos v&iacute;nculos con las m&aacute;s famosas e importantes casas de subastas en el extranjero, lo que nos brinda la oportunidad de colocar piezas espec&iacute;ficas en mercados internacionales.</p>
 
-			<h2>Misi&oacute;n</h2>
+			<h2 class="align-left">Misi&oacute;n</h2>
 
 			<p>Somos la compa&ntilde;&iacute;a que resuelve a sus clientes las necesidad de convertir en efectivo sus objetos: Arte Moderno y Contempor&aacute;neo, Antig&uuml;edades, Joyer&iacute;a y Relojes, Libros y Documentos Antiguos y Contempor&aacute;neos, Vinos de Colecci&oacute;n y Uso Diario y Herencias.</p>
 
-			<h2>Visi&oacute;n</h2>
+			<h2 class="align-left">Visi&oacute;n</h2>
 
 			<p>Consolidar un equipo de trabajo de excelencia profesional y ser una empresa de clase Mundial con operaciones en Estados Unidos, centro y Sudam&eacute;rica en cinco a&ntilde;os, que nos permita triplicar nuestros ingresos para 2015.</p>
 
-			<h2>Valores</h2>
+			<h2 class="align-left">Valores</h2>
 
 			<ul>
 				<li>Honestidad</li>
@@ -67,12 +68,53 @@
 				<li>Congruencia</li>
 			</ul>
 
-		</div><!-- end .cont -->
+		</section><!-- end .cont -->
+
+		<div class="gallery pull-right">
+				<a href="/images/gallery/1.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-1.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/2.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-2.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/3.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-3.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/4.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-4.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/5.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-5.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/6.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-6.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/7.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-7.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/8.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-8.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/9.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-9.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/10.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-10.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/11.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-11.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/12.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-12.jpg" alt="" />
+				</a>
+
+		</div><!-- end .gallery -->
 
 	</div><!-- end #content -->
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
-    <?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
+  <?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
+  <script type="text/javascript" src="/js/lightbox.min.js"></script>
 </body>
 </html>
