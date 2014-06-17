@@ -16,7 +16,7 @@
 		<img src="/images/banners/dep-arte-moderno.jpg">
 	</section>
 
-	<div id="content">
+	<div id="content" class="clearfix">
 
 		<h1>Nosotros</h1>
 
@@ -25,7 +25,7 @@
 			<li class="active">Nosotros</li>
 		</ol>
 
-		<section class="cont">
+		<section class="cont pull-left">
 
 			<p>En Morton, Casa de Subastas tenemos claro lo que conforma nuestra filosof&iacute;a de empresa: Darle valor a las cosas que otorgan sabor a la vida, proceder con incansable actitud de servicio y conservar un apego total a la honestidad.</p>
 
@@ -68,47 +68,47 @@
 				<li>Congruencia</li>
 			</ul>
 
-			<div class="gallery">
-					<a href="/images/gallery/1.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-1.jpg" alt=""/>
-					</a>
-					<a href="/images/gallery/2.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-2.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/3.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-3.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/4.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-4.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/5.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-5.jpg" alt=""/>
-					</a>
-					<a href="/images/gallery/6.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-6.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/7.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-7.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/8.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-8.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/9.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-9.jpg" alt=""/>
-					</a>
-					<a href="/images/gallery/10.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-10.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/11.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-11.jpg" alt="" />
-					</a>
-					<a href="/images/gallery/12.jpg" data-lightbox="gallery" data-title="">
-						<img src="/images/gallery/th-12.jpg" alt="" />
-					</a>
+		</section><!-- end .cont -->
 
-			</div><!-- end .gallery -->
+		<div class="gallery pull-right">
+				<a href="/images/gallery/1.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-1.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/2.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-2.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/3.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-3.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/4.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-4.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/5.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-5.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/6.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-6.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/7.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-7.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/8.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-8.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/9.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-9.jpg" alt=""/>
+				</a>
+				<a href="/images/gallery/10.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-10.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/11.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-11.jpg" alt="" />
+				</a>
+				<a href="/images/gallery/12.jpg" data-lightbox="gallery" data-title="">
+					<img src="/images/gallery/th-12.jpg" alt="" />
+				</a>
 
-		</div><!-- end .cont -->
+		</div><!-- end .gallery -->
 
 	</div><!-- end #content -->
 

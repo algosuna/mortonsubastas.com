@@ -54,6 +54,8 @@ Date: May, 2014
 	4.4 - Sections Responsiveness
 	4.5 - Staff
 	4.6 - Staff Responsiveness
+	4.7 - Gallery
+	4.8 - Gallery Responsiveness
 
 5. - Contact: Styles specific to the contact page.
 	5.1 - Resets
@@ -824,8 +826,17 @@ footer .row div:nth-child(2) {
 .cont:first-of-type {
 	padding-top: 20px;
 }
+.cont.pull-left {
+	max-width: 720px;
+}
 
 /* 4.4 - Sections Responsiveness */
+@media (max-width: 1179px) {
+	.cont.pull-left {
+		float: none;
+		max-width: 100%;
+	}
+}
 @media (max-width: 399px) {
 	.cont {
 		padding: 15px;
@@ -883,6 +894,25 @@ footer .row div:nth-child(2) {
 	.staff {
 		width: 100%;
 		padding: 25px 0;
+	}
+}
+
+/* 4.7 - Gallery */
+.gallery {
+	text-align: center;
+	display: block;
+	max-width: 460px;
+	margin-bottom: 20px;
+}
+.gallery img {
+	margin: 0px;
+	padding: 10px;
+}
+/* 4.8 - Gallery Responsiveness */
+@media (max-width: 1179px) {
+	.gallery {
+		float: none;
+		max-width: 100%;
 	}
 }
 
