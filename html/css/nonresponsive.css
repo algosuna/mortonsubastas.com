@@ -1,0 +1,147 @@
+/**************************************************************************
+
+Name: Additional stylesheet for mortonsubastas.com
+Description: Stylesheet for non-responsive pages
+Date: June, 2014
+
+**************************************************************************/
+
+/* Containers */
+#content,
+footer > .row,
+header {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* Header */
+#quick-links {
+	display: block;
+	width: 1000px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -90px;
+	right: 80px;
+	text-align: right;
+	clear: both;
+}
+@media (min-width: 1px) and (max-width: 998px) {
+	header nav {
+		font-size: 18px;
+	}
+  .hambarger {
+    display: none;
+  }
+}
+@media (max-width: 877px) {
+	header {
+		height: 150px;
+		padding: 50px;
+	}
+	#quick-links {
+		visibility: visible;
+	}
+	.scrolled ~ #content {
+		top: 90px; /* BUG fix */
+	}
+}
+@media (max-width: 835px) {
+	nav {
+		display: block;
+		background: transparent;
+		margin-top: 10px;
+		padding: 0;
+		position: inherit;
+		width: auto;
+	}
+	nav > ul {
+		margin: 0;
+		padding: 0;
+		height: 45px;
+	}
+	nav > ul > li {
+		list-style: none;
+		display: inline-block;
+		margin: 0;
+		padding: 10px;
+		width: auto;
+	}
+	nav > ul > li:last-child {
+		padding: 10px 0 0 10px;
+	}
+	nav ul li ul li {
+		width: auto;
+	}
+	nav ul li.dropdown ul.dropdown-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 5px 0;
+		margin: 2px 0 0;
+		list-style: none;
+		font-size: 14px;
+		background-color: #ffffff;
+		border: 1px solid #cccccc;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+		-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+		background-clip: padding-box;
+		width: auto;
+	}
+	#quick-links {
+		top: -210px;
+	}
+}
+@media (max-width: 720px) {
+	nav > ul {
+		height: 45px;
+	}
+	nav > ul > li {
+		width: auto;
+		border: none;
+		padding: 10px;
+	}
+	nav > ul > li:last-child {
+		padding: 10px 0 0 10px;
+	}
+	nav > ul > li:first-child {
+		padding: 10px;
+	}
+}
+
+/* Footer */
+
+@media (max-width: 1024px) {
+	footer {
+		width: auto;
+	}
+}
+@media (max-width: 767px) { 
+	#footer-links {
+		text-align: left;
+	}
+	#footer-links li {
+		display: block;
+	}
+	#footer-links li a {
+		margin: 0px;
+	}
+	#social-media {
+		width: 168px;
+		padding: 45px 0 0 0;
+	}
+	#social-media li a {
+		margin: 5px 10px !important;
+	}
+	#social-media li:nth-of-type(4) a {
+		margin-left: 38px !important;
+	}
+}
