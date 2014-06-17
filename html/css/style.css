@@ -507,7 +507,7 @@ footer {
 }
 footer .row div:nth-child(2) {
 	padding-top:30px; /* targets the morton footer logo div */
-	text-align: center;
+	text-align: center !important;
 }
 .scrolled ~ footer {
 	bottom: -150px; /* BUG fix */
