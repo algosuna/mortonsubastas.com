@@ -17,35 +17,35 @@ if (isset($_POST['did_send']) == 'true') {
 	} elseif ($dept == 'ate') {
 		$valid			= true;
 		$department	= "Atención a Clientes";
-		$deptemail	= 'andyosuna@gmail.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'ant') {
 		$valid			= true;
 		$department	= "Antigüedades";
-		$deptemail	= 'info@andyosuna.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'art') {
 		$valid			= true;
 		$department	= "Arte Moderno";
-		$deptemail	= 'andyosuna@gmail.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'joy') {
 		$valid			= true;
 		$department	= "Joyería";
-		$deptemail	= 'info@andyosuna.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'lib') {
 		$valid			= true;
 		$department	= "Libros y Documentos";
-		$deptemail	= 'andyosuna@gmail.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'vin') {
 		$valid		= true;
 		$department	= "Vinos";
-		$deptemail	= 'info@andyosuna.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'opo') {
 		$valid			= true;
 		$department	= "Oportunidades";
-		$deptemail	= 'andyosuna@gmail.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} elseif ($dept == 'emp') {
 		$valid			= true;
 		$department	= "Empeños";
-		$deptemail	= 'info@andyosuna.com';
+		$deptemail	= 'atencion.clientes@mortonsubastas.com';
 	} else {
 		$valid	= true;
 	}
@@ -67,7 +67,7 @@ if (isset($_POST['did_send']) == 'true') {
 
 
 	$to			=	$deptemail;
-	$subject=	"Atencion a " . $department . " | mortonsubastas.com";
+	$subject=	"Mensaje para " . $department . " | mortonsubastas.com";
 	$body		=	'<html><body style="background-color: #000; padding: 20px;">';
 	$body		.=	'<img src="http://mortonsubastas.andyosuna.com/images/logo.png" style="padding-bottom: 20px;" alt="Morton Casa de Subastas" />';
 	$body		.=	'<table rules="all" style="border-color: #666; width: 100%;" cellpadding="20">';
@@ -78,8 +78,7 @@ if (isset($_POST['did_send']) == 'true') {
 	$body		.=	"</body></html>";
 	$headers=	"From: " . $email . "\r\n";
 	$headers.=	"Reply-to: " . $email . "\r\n";
-	$headers.=	"CC: andyosuna@gmail.com\r\n";
-					// TODO 04-06-2014: change to atencion a clientes' email
+	$headers.=	"CC: atencion.clientes@mortonsubastas.com\r\n";
 	$headers.=	"MIME-version: 1.0\r\n";
 	$headers.=	"Content-Type: text/html; charset=ISO-8859-1\r\n";
 
