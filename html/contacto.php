@@ -69,9 +69,9 @@
 								<button class="btn-morton submit" type="submit">Enviar!</button>
 								<input type="hidden" name="did_send" value="true" />
 							</li>
-							<?php } //-- end if ?>
 						</ul><!-- end ul -->
 					</form><!-- end .contact-form -->
+					<?php } //-- end if ?>
 				</div><!-- end .col-sm-6 -->
 				<div class="col-sm-6">
 					<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zgkSITLF1xOc.kWQyxgjQpSoI" width="100%" height="480"></iframe>

@@ -7,8 +7,7 @@
 				<li><a href="/aviso-privacidad.php">Aviso de Privacidad</a></li>
 				<li><a href="http://www.liveauctioneers.com/morton-casa-de-subastas" target="_blank">Subastas en L&iacute;nea</a></li>
 				<li><a href="/mimorton.php">Mi Morton</a></li>
-				<li><a href="/registro.php">Registro</a></li>
-				<li><a href="/ayuda.php">Ayuda</a></li>
+				<li><a href="/preregistro.php">Pre-Registro</a></li>
 			</ul><!-- end #footer-links -->
 		</div><!-- end .col-xs-4 -->
 		<div class="col-xs-4">
