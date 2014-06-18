@@ -63,7 +63,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
+					<img src="/images/staff/medina-leonardo.jpg" width="153" height="200">
 					<h3>Leonardo Medina L&oacute;pez</h3>
 					<h4>Valuador de Artes Decorativas y Dise&ntilde;o</h4>
 					<p>Leonardo Medina, curs&oacute; estudios de Licenciatura en Econom&iacute;a en la Universidad Veracruzana. Desempe&ntilde;&oacute; funciones de catalogaci&oacute;n y archivo de acervo social y antropol&oacute;gico en CIESAS-Golfo. Desde el a&ntilde;o 2002, se ha desempe&ntilde;ado como valuador en el Departamento de Artes Decorativas y Dise&ntilde;o en Morton Casa de Subastas.</p>
