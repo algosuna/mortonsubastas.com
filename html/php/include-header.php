@@ -34,7 +34,7 @@
 				<a href="/catalogos/" class="dropdown-toggle">Cat&aacute;logos</a>
 				<ul class="dropdown-menu">
 					<li><a href="/catalogos/catalogos-digitales.php">Cat&aacute;logos Digitales</a></li>
-					<li><a href="/catalogos/subsripciones.php">Subscripciones</a></li>
+					<li><a href="/catalogos/suscripciones.php">Suscripciones</a></li>
 				</ul><!-- end .dropdown-menu -->
 			</li><!-- end .dropdown -->
 			<li><a href="/nosotros.php">Nosotros</a></li>
@@ -43,8 +43,8 @@
 	</nav><!-- end .pull-right -->
 
 	<div id="quick-links">
-		<a href="#">Mi Morton</a>
+		<a href="/mimorton">Mi Morton</a>
 		<a href="/ayuda.php">Ayuda</a>	
-		<a href="#">B&uacute;squeda</a>
+		<a href="/busqueda.php">B&uacute;squeda</a>
 	</div><!-- end #quick-links -->
 </header>
