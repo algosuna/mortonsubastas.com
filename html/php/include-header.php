@@ -43,7 +43,7 @@
 	</nav><!-- end .pull-right -->
 
 	<div id="quick-links">
-		<a href="/mimorton">Mi Morton</a>
+		<a href="/mimorton.php">Mi Morton</a>
 		<a href="/ayuda.php">Ayuda</a>	
 		<a href="/busqueda.php">B&uacute;squeda</a>
 	</div><!-- end #quick-links -->

@@ -954,6 +954,9 @@ footer .row div:nth-child(2) {
 		float: none;
 		max-width: 100%;
 	}
+	.cont.pull-left {
+		min-width: 100%;
+	}
 }
 
 /* 4.9 - Digital Catalogs */
