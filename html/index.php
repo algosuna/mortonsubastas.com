@@ -95,26 +95,24 @@
 
 			<section id="catalogs" class="container-fluid">
 				<h2>&Uacute;ltimos Cat&aacute;logos</h2>
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
+					<div class="catgroup">
 						<div class="cat">
 							<img src="/images/catalogs/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
 							<a href="#">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
-					</div><!-- end .col-md-4 -->
-					<div class="col-md-4 col-sm-6">
 						<div class="cat">
 							<img src="/images/catalogs/cat-libros.jpg" alt="Subasta de Libros y Documentos" title="Subasta de Libros y Documentos">
 							<a href="#">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
-					</div><!-- end .col-md-4 -->
-					<div class="col-md-4 col-sm-6">
 						<div class="cat">
 							<img src="/images/catalogs/cat-artemoderno.jpg" alt="Subasta de Arte Moderno" title="Subasta de Arte Moderno">
 							<a href="#">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
-					</div><!-- end .col-md-4 -->
-				</div><!-- end .row -->
+					</div><!-- end .catgroup -->
+					<div class="cat">
+						<img src="/images/catalogs/cat-joyeria.jpg" alt="Subasta de Joyeria" title="Subasta de Joyeria">
+						<a href="#">Ver Cat&aacute;logo</a>
+					</div><!-- end .cat -->
 			</section><!-- end #catalogs -->
 		</div><!-- #content -->
 
