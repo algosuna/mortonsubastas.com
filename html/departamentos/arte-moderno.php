@@ -94,7 +94,7 @@
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/gorinstein-vivian.jpg" width="153" height="200">
-					<h3>Vivian Gorinstein Loin</h3>
+					<h3>Vivian Gorinstein</h3>
 					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
@@ -103,8 +103,6 @@
 				<div class="staff-box">
 					<img src="/images/staff/duarte-sofia.jpg" width="153" height="200">
 					<h3>Sofia Duarte</h3>
-					<h4>Drumstick Specialist</h4>
-					<h5>11 Years</h5>
 					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
