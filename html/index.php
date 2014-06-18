@@ -6,6 +6,13 @@
 	<title>Morton Casa de Subastas - Inicio</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<style type="text/css">
+	iframe {
+		width: 100%;
+		height: 100%;
+		min-height: 315px;
+	}
+	</style>
 </head>
 
 <body>
@@ -61,8 +68,7 @@
 					<div class="carousel-inner">
 						<div class="row item">
 							<div class="col-sm-6">
-								<!-- TODO: add youtube video iframe or something -->
-								<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+								<iframe src="//www.youtube.com/embed/y5XZppDsk0A" frameborder="0" allowfullscreen></iframe>
 							</div><!-- end .col-sm-6 -->
 							<div class="col-sm-6">
 								<p class="large">Algunas personas creen que la subasta es un proceso complicado. ¡Sorpresa! entrar a comprar a una subasta es muy sencillo y no se requiere invitaci&oacute;n, inscripci&oacute;n, ni nada de eso.</p>
