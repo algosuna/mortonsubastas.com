@@ -1,7 +1,3 @@
-<?php 
-//include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
-//$pageId = "joy";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,59 +27,14 @@
 
 		<section class="cont">
 
-			<h2 class="align-left">Descripci&oacute;n</h2>
+			<h2 class="align-left">PERMITA QUE SUS JOYAS BRILLEN EN SUBASTA</h2>
 
 			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
-			<p>Bacon ipsum dolor sit amet turkey tail pork belly, rump tenderloin ham t-bone pork. Andouille swine tail pork loin ball tip ham ham hock sirloin beef doner tri-tip. Pork loin strip steak kevin frankfurter flank.</p>
-			<p>Bacon kevin strip steak, pancetta hamburger frankfurter andouille kielbasa meatloaf jerky shoulder cow ground round prosciutto. Beef ribs sausage doner tongue chicken.</p>
-
+			<p>En el departamento de Joyer&iacute;a y Relojes nos dedicamos a consignar todo tipo alhajas y relojes. Pueden ser antiguos, de &eacute;poca, modernos o actuales. Piezas de importante precio y piezas muy accesibles en buen estado de conservaci&oacute;n.</p>
+			<p>Por varias razones, hoy en d&iacute;a la subasta es la mejor opci&oacute;n para vender sus joyas. En una sola visita usted puede resolver sobre sus piezas, no requiere estarlas ofreciendo con las molestias y riesgos que &eacute;sto conlleva. La comodidad y seguridad que tiene al presentar sus objetos de valor a un grupo de profesionales que le tratar&aacute;n con conocimiento y respeto. Sus joyas y relojes se ofrecer&aacute;n para venderlas al mejor postor.</p>
+			<p>Para consignar, por favor haga una cita a su conveniencia, durante la cual revisaremos la pieza, haremos un aval&uacute;o y repasaremos las condiciones para entrar a subasta. De estar de acuerdo, firmaremos un contrato.</p>
 
 		</section>
-
-		<hr>
-
-		<section class="cont">
-
-			<h2 class="align-left">Pr&oacute;ximos Eventos</h2>
-
-			<div class="table-responsive">
-				<table class="table">
-					<thead>
-						<tr>
-							<th>&nbsp;</th>
-							<th>Evento</th>
-							<th>Fecha</th>
-							<th>Hora</th>
-							<th>Lugar</th>
-							<th>Descripci&oacute;n</th>
-						</tr>
-					</thead><!-- end thead -->
-					<tbody>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-					</tbody><!-- end tbody -->
-				</table><!-- end .table -->
-			</div><!-- end .table-responsive -->
-
-		</section><!-- end .cont -->
 
 		<hr>
 
@@ -95,7 +46,7 @@
 				<div class="staff-box">
 					<img src="/images/staff/rojas-alejandra.jpg" width="153" height="200">
 					<h3>Alejandra Rojas</h3>
-					<p>Licenciada en Economía por la Universidad Nacional Autónoma de México. Con una trayectoria de 18 años en el sector financiero. Desde 2006 presta sus servicios en Morton, Casa de Subastas habiéndose desempeñado como Gerente del departamento de Empeños y actualmente coordinado los departamentos de Joyería, Vinos y Libros.</p>
+					<p>Licenciada en Econom&iacute;a por la Universidad Nacional Aut&oacute;noma de M&eacute;xico. Con una trayectoria de 18 a&ntilde;os en el sector financiero. Desde 2006 presta sus servicios en Morton, Casa de Subastas habi&eacute;ndose desempe&ntilde;ado como Gerente del departamento de Empe&ntilde;os y actualmente coordinado los departamentos de Joyer&iacute;a, Vinos y Libros.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
@@ -103,10 +54,10 @@
 				<div class="staff-box">
 					<img src="/images/staff/suari-alejandro.jpg" width="153" height="200">
 					<h3>Alejandro Suari</h3>
-					<p>Alejandro Suari curso la carrera de Perito Valuador en el Instituto Tecnológico de Estudios Superiores de Monterrey, cuenta con la especialidad de Graduador de Diamantes por HRD Amberes, Bélgica y un Diplomado en Apreciación de Arte.</p>
-					<p>Se desempeñó como Subdirector Técnico de Valuación en el Monte de Piedad en la Ciudad de Puebla.</p>
-					<p>Colaboró en MET MEX PEÑOLES coordinando los ensayes en las practicas para el análisis de aleaciones y en los procesos de fundición y análisis de metales.</p>
-					<p>Cuenta con dos años de trayectoría en Morton, Casa de Subastas.</p>
+					<p>Alejandro Suari curso la carrera de Perito Valuador en el Instituto Tecnol&oacute;gico de Estudios Superiores de Monterrey, cuenta con la especialidad de Graduador de Diamantes por HRD Amberes, B&eacute;lgica y un Diplomado en Apreciaci&oacute;n de Arte.</p>
+					<p>Se desempe&ntilde;&oacute; como Subdirector T&eacute;cnico de Valuaci&oacute;n en el Monte de Piedad en la Ciudad de Puebla.</p>
+					<p>Colabor&oacute; en MET MEX PE&Ntilde;OLES coordinando los ensayes en las practicas para el an&aacute;lisis de aleaciones y en los procesos de fundici&oacute;n y an&aacute;lisis de metales.</p>
+					<p>Cuenta con dos a&ntilde;os de trayector&iacute;a en Morton, Casa de Subastas.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
@@ -114,8 +65,8 @@
 				<div class="staff-box">
 					<img src="/images/staff/hinojosa-david.jpg" width="153" height="200">
 					<h3>David Hinojosa Rangel</h3>
-					<p>Es Perito Valuador Egresado del  Instituto de Valuadores del Nacional Monte de Piedad Certificado por el HRD (Amberes, Bélgica); cuenta con Diplomado en Gemología de la Facultad de Ingeniería de la  Universidad Nacional Autónoma de México y un  Diplomado en Arte por el Instituto Tecnológico de Estudios Superiores de Monterrey.</p>
-					<p>Con una trayectoría de veintiseis años en instituciones como el Nacional Monte de Piedad, Fundación Social Monte Pio Guadalajara Jalisco y Morton, Casa de Subastas.</p>
+					<p>Es Perito Valuador Egresado del  Instituto de Valuadores del Nacional Monte de Piedad Certificado por el HRD (Amberes, B&eacute;lgica); cuenta con Diplomado en Gemolog&iacute;a de la Facultad de Ingenier&iacute;a de la  Universidad Nacional Aut&oacute;noma de M&eacute;xico y un  Diplomado en Arte por el Instituto Tecnol&oacute;gico de Estudios Superiores de Monterrey.</p>
+					<p>Con una trayector&iacute;a de veintiseis a&ntilde;os en instituciones como el Nacional Monte de Piedad, Fundaci&oacute;n Social Monte Pio Guadalajara Jalisco y Morton, Casa de Subastas.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
