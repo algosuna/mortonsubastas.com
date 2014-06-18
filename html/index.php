@@ -59,7 +59,7 @@
 	<div id="content-wrapper">
 		<div id="content">
 			<section id="video" class="container-fluid">
-				<h2>V&iacute;deo Destacado</h2>
+				<h2>VIdeo Destacado</h2>
 				<div class="carousel-slide" id="video-slider" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#video-slider" data-slide-to="0"></li>
@@ -95,20 +95,20 @@
 					<div class="catgroup">
 						<div class="cat">
 							<img src="/images/catalogs/cat-oportunidades.jpg" alt="Subasta de Oportunidades" title="Subasta de Oportunidades">
-							<a href="#">Ver Cat&aacute;logo</a>
+							<a href="/catalogos/catalogos-digitales.php">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
 						<div class="cat">
 							<img src="/images/catalogs/cat-libros.jpg" alt="Subasta de Libros y Documentos" title="Subasta de Libros y Documentos">
-							<a href="#">Ver Cat&aacute;logo</a>
+							<a href="/catalogos/catalogos-digitales.php#cat-libros">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
 						<div class="cat">
 							<img src="/images/catalogs/cat-artemoderno.jpg" alt="Subasta de Arte Moderno" title="Subasta de Arte Moderno">
-							<a href="#">Ver Cat&aacute;logo</a>
+							<a href="/catalogos/catalogos-digitales.php#cat-artemoderno">Ver Cat&aacute;logo</a>
 						</div><!-- end .cat -->
 					</div><!-- end .catgroup -->
 					<div class="cat">
 						<img src="/images/catalogs/cat-joyeria.jpg" alt="Subasta de Joyeria" title="Subasta de Joyeria">
-						<a href="#">Ver Cat&aacute;logo</a>
+						<a href="/catalogos/catalogos-digitales.php">Ver Cat&aacute;logo</a>
 					</div><!-- end .cat -->
 			</section><!-- end #catalogs -->
 		</div><!-- #content -->
