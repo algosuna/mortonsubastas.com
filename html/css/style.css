@@ -56,6 +56,7 @@ Date: May, 2014
 	4.6 - Staff Responsiveness
 	4.7 - Gallery
 	4.8 - Gallery Responsiveness
+	4.9 - Digital Catalogs
 
 5. - Contact: Styles specific to the contact page.
 	5.1 - Resets
@@ -946,12 +947,24 @@ footer .row div:nth-child(2) {
 	margin: 0px;
 	padding: 10px;
 }
+
 /* 4.8 - Gallery Responsiveness */
 @media (max-width: 1179px) {
 	.gallery {
 		float: none;
 		max-width: 100%;
 	}
+}
+
+/* 4.9 - Digital Catalogs */
+.issuuembed {
+	width: 100%;
+	max-width: 650px;
+	height: 425px;
+	margin: 0 auto;
+}
+.issuuembed ~ h3:nth-of-type(2) {
+	margin-top: 40px;
 }
 
 
