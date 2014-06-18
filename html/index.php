@@ -23,28 +23,27 @@
 				<img src="/images/slides/slide-1.jpg" alt="Subasta de Libros">
 				<div class="carousel-caption">
 					<h3>Subasta de Grabados, Fotograf&iacute;a, Documentos y Libros Antiguos y Contempor&aacute;neos.</h3>
-					<p>(Incluye una selecci&oacute;n de documentos de la biblioteca ecl&eacute;ctica MONCLAU, y otra de literatura de la Biblioteca de Ricardo Garibay). <br> Mi&eacute;rcoles 25 de Junio de 2014, 19:00 hrs.<br><a href="#">Ver Evento -></a></p>
+					<p>(Incluye una selecci&oacute;n de documentos de la biblioteca ecl&eacute;ctica MONCLAU, y otra de literatura de la Biblioteca de Ricardo Garibay). <br> Mi&eacute;rcoles 25 de Junio de 2014, 19:00 hrs.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="/images/slides/slide-2.jpg" alt="Subasta de Arte Moderno">
 				<div class="carousel-caption">
 					<h3>Subasta de Verano</h3>
-					<p>Arte para todos los gustos y bolsillos.<br>Jueves 3 de Julio de 2014, 19:00 hrs.<br><a href="#">Ver Evento -></a></p>
+					<p>Arte para todos los gustos y bolsillos.<br>Jueves 3 de Julio de 2014, 19:00 hrs.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="/images/slides/slide-3.jpg" alt="Subasta de Joyer&iacute;a">
 				<div class="carousel-caption">
 					<h3>Subasta de Joyer&iacute;a y Relojes</h3>
-					<p>Mi&eacute;rcoles 9 de Julio de 2014, 19:00 hrs.<br><a href="#">Ver Evento -></a></p>
+					<p>Mi&eacute;rcoles 9 de Julio de 2014, 19:00 hrs.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="/images/slides/slide-4.jpg" alt="Subasta de Antig&uuml;edades">
 				<div class="carousel-caption">
-					<h3>Subasta de Antig&uuml;edades</h3>
-					<p><a href="#">Ver Evento -></a></p>
+					<h3>Subasta de Antig&uuml;edades</h3></p>
 				</div>
 			</div>
 		</div>
