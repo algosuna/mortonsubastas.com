@@ -119,7 +119,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
+					<img src="/images/staff/beltran-giselle.jpg" width="153" height="200">
 					<h3>Giselle Beltran</h3>
 					<h4>Gerente Morton Empe&ntilde;os</h4>
 					<p>Cuenta con una trayectoria de m&aacute;s de 15 a&ntilde;os de experiencia en atenci&oacute;n a Clientes Premier, banca y servicios financieros.</p>
@@ -128,7 +128,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
+					<img src="/images/staff/paez-hector.jpg" width="153" height="200">
 					<h3>Hector Paez</h3>
 					<h4>Servicio a clientes Morton Empe&ntilde;os</h4>
 					<p>Con experiencia de m&aacute;s de 13 a&ntilde;os en administraci&oacute;n y atenci&oacute;n a clientes. Actualmente forma parte de nuestro equipo de subastadores.</p>

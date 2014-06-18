@@ -44,7 +44,16 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
+					<img src="/images/staff/lopezmorton-eduardo.jpg" width="153" height="200">
+					<h3>Eduardo L&oacute;pez-Morton</h3>
+					<p> Licenciado en Relaciones Internacionales con un Diplomado en Historia del Arte por la Universidad Anahuac Norte. Curs&oacute; el programa de Art and its markets en Sotheby's Londres y colabor&oacute; en la casa de subastas Wooley and Wallis en Salisbury Inglaterra.</p>
+					<p>Desde 2006 es colaborador en Morton, Casa de Subastas. Ha fungido como martillero en mas de 250 subastas a nivel nacional e internacional.</p>
+				</div><!-- end .staff-box -->
+			</div><!-- end .staff -->
+
+			<div class="staff">
+				<div class="staff-box">
+					<img src="/images/staff/aguilar-miguel.jpg" width="153" height="200">
 					<h3>Miguel Aguilar Trejo</h3>
 					<p>Estudi&oacute; la carrera de Arqueolog&iacute;a en la Escuela Nacional de Antropolog&iacute;a e Historia.</p>
 					<p>Combin&oacute; sus estudios con su trabajo como colaborador en el Proyecto Arqueol&oacute;gico de Xochimilco (Salvamento Arqueol&oacute;gico) durante 3 a&ntilde;os.</p>
@@ -54,16 +63,7 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
-					<h3>Eduardo Lopez Morton</h3>
-					<p> Licenciado en Relaciones Internacionales con un Diplomado en Historia del Arte por la Universidad Anahuac Norte. Curs&oacute; el programa de Art and its markets en Sotheby's Londres y colabor&oacute; en la casa de subastas Wooley and Wallis en Salisbury Inglaterra.</p>
-					<p>Desde 2006 es colaborador en Morton, Casa de Subastas. Ha fungido como martillero en mas de 250 subastas a nivel nacional e internacional.</p>
-				</div><!-- end .staff-box -->
-			</div><!-- end .staff -->
-
-			<div class="staff">
-				<div class="staff-box">
-					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
+					<img src="/images/staff/millan-carlos.jpg" width="153" height="200">
 					<h3>Carlos Mill&aacute;n</h3>
 					<p>Estudi&oacute; la carrera en Disciplina del Arte, la M&uacute;sica y el Espect&aacute;culo en la Universidad de Padua en Italia. Tom&oacute; un curso de especializaci&oacute;n en curadur&iacute;a en la galer&iacute;a A+A en Venecia, sede del pabell&oacute;n esloveno durante la Bienal.</p>
 					<p>Trabaj&oacute; como curador de algunas muestras en Padua y como especialista y asesor en la galer&iacute;a Ca' Rezzonico en Venecia.</p>
