@@ -659,6 +659,9 @@ footer .row div:nth-child(2) {
 #slider .carousel-inner .item .carousel-caption h3 {
 	color: rgb(255, 255, 255);
 }
+#slider .carousel-inner .item .carousel-caption p {
+	text-align: left;
+}
 #slider .carousel-inner .item img {
 	position: absolute;
 	min-width: 100%;
