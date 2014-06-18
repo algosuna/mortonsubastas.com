@@ -63,6 +63,14 @@
 
 			<div class="staff">
 				<div class="staff-box">
+					<img src="/images/staff/lafforgue-roxana.jpg" width="153" height="200">
+					<h3>Roxana Lafforgue</h3>
+					<p>Despu&eacute;s de una carrera en la administraci&oacute;n tur&iacute;stica, Roxana decidi&oacute; cambiar por algo que fuese solo  de su gusto y encontr&oacute; la joyer&iacute;a; m&aacute;s espec&iacute;ficamente la gemolog&iacute;a. Egresada del Gemological Institute of America (GIA) en California, USA con el t&iacute;tulo de Graduate Jeweler Gemologist, G.J.G., (Gem&oacute;loga Joyera Graduada), se dedic&oacute; al dise&ntilde;o y producci&oacute;n de piezas &uacute;nicas como negocio propio y realiz&oacute; una maestr&iacute;a en direcci&oacute;n. Posteriormente trabaj&oacute; en Estados Unidos en la joyer&iacute;a de Patrimonio de Alta Calidad y Lujo. A sui regreso a M&eacute;xico, ingres&oacute; el 4 de enero de 2010 en Morton Casa de Subastas.</p>
+				</div><!-- end .staff-box -->
+			</div><!-- end .staff -->
+
+			<div class="staff">
+				<div class="staff-box">
 					<img src="/images/staff/hinojosa-david.jpg" width="153" height="200">
 					<h3>David Hinojosa Rangel</h3>
 					<p>Es Perito Valuador Egresado del  Instituto de Valuadores del Nacional Monte de Piedad Certificado por el HRD (Amberes, B&eacute;lgica); cuenta con Diplomado en Gemolog&iacute;a de la Facultad de Ingenier&iacute;a de la  Universidad Nacional Aut&oacute;noma de M&eacute;xico y un  Diplomado en Arte por el Instituto Tecnol&oacute;gico de Estudios Superiores de Monterrey.</p>
