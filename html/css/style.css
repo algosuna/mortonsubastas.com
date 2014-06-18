@@ -113,6 +113,9 @@ h1 small {
 h2 small {
 	font-weight: 200;
 }
+p {
+	text-align: justify;
+}
 
 /* 0.3 - Other */
 *:focus {
