@@ -6,7 +6,7 @@
 	<title>Morton Casa de Subastas - Inicio</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<style type="text/css">
+	<style>
 	iframe {
 		width: 100%;
 		height: 100%;
@@ -117,7 +117,7 @@
 	</div>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
-	<script type="text/javascript">
+	<script>
 	$('#slider').carousel({pause:"hover";interval:2000;});
 	$('#video-slider').carousel({pause:"hover";interval:1500;});
 	</script>

@@ -6,7 +6,7 @@
 	<title>Morton Casa de Subastas - Suscripciones</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<style type="text/css">
+	<style>
 	.cont { text-align: center; padding: 0 0 20px 0;}
 	.cont img { width: 100%; max-width: 784px; height: 100%; margin: 0; padding: 0;}
 	</style>

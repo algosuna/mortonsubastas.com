@@ -29,7 +29,7 @@
 
 			<h2 class="align-left">La continuidad de una obra de arte</h2>
 
-			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
+			<img src="/images/cont-antiguedades.jpg" width="306" height="198" class="pull-right">
 			<p>Una Antig&uuml;edad es sin&oacute;nimo de encanto y distinci&oacute;n; denota buen gusto y elegancia dentro de cualquier colecci&oacute;n.</p>
 			<p>En el Departamento de Antig&uuml;edades nos preocupamos por ofrecerle el mayor lujo y la m&aacute;s alta calidad en cada subasta. Nos deleitamos en presentar la mejor selecci&oacute;n de porcelana, plata, relojes, marfiles, tapetes, alfombras, mobiliario, cristal, pintura, escultura y militar&iacute;a para nuestros clientes nacionales e internacionales.</p>
 			<p>Le invitamos a formar parte de esta experiencia consignando sus objetos. Nuestro equipo de especialistas con mucho gusto lo asesorar&aacute; sobre el valor de sus piezas con base en sus materiales, calidad y técnica de decoraci&oacute;n. Ellos le brindar&aacute;n una referencia de precio fundamentada en el mercado de subastas que lo orientar&aacute; para la venta de sus objetos en subasta.</p>

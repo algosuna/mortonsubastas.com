@@ -6,7 +6,7 @@
 	<title>Morton Casa de Subastas - Template</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<link rel="stylesheet" type="text/css" href="/css/nonresponsive.css">
+	<link rel="stylesheet" href="/css/nonresponsive.css">
 </head>
 
 <body>

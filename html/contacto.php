@@ -137,8 +137,8 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
-	<script type="text/javascript" src="/js/modernizr.js"></script>
-	<script type="text/javascript">
+	<script src="/js/modernizr.js"></script>
+	<script>
 	if(Modernizr.touch){var $touchBody=$('body'),$navigation=$('header');$(document).on('focus','input',function(e){$touchBody.addClass('touchfix');$navigation.removeClass('scrolled');$(window).scroll(function(){$navigation.removeClass();})}).on('blur','input',function(e){$touchBody.removeClass('touchfix');$navigation.addClass('scrolled');});};
   </script>
 </body>

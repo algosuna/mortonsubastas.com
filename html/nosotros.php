@@ -6,7 +6,7 @@
 	<title>Morton Casa de Subastas - Nosotros</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+	<link rel="stylesheet" href="/css/lightbox.css">
 </head>
 
 <body>
@@ -115,6 +115,6 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-footer.php'; ?>
 
   <?php include 'http://mortonsubastas.andyosuna.com/php/include-js.php'; ?>
-  <script type="text/javascript" src="/js/lightbox.min.js"></script>
+  <script src="/js/lightbox.min.js"></script>
 </body>
 </html>

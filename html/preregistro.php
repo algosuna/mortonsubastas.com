@@ -7,7 +7,7 @@
 	<title>Morton Casa de Subastas - Registro</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<style type="text/css">
+	<style>
 	.contact-form {
 		max-width: 600px;
 		margin: 0 auto;
