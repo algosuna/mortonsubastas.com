@@ -46,7 +46,8 @@
 				<div class="staff-box">
 					<img src="/images/staff/rojas-alejandra.jpg" width="153" height="200">
 					<h3>Alejandra Rojas</h3>
-					<p>Licenciada en Econom&iacute;a por la Universidad Nacional Aut&oacute;noma de M&eacute;xico. Con una trayectoria de 18 a&ntilde;os en el sector financiero. Desde 2006 presta sus servicios en Morton, Casa de Subastas habi&eacute;ndose desempe&ntilde;ado como Gerente del departamento de Empe&ntilde;os y actualmente coordinado los departamentos de Joyer&iacute;a, Vinos y Libros.</p>
+					<p>Licenciada en Econom&iacute;a por la Universidad Nacional Aut&oacute;noma de M&eacute;xico. Con una trayectoria de 18 a&ntilde;os en el sector financiero.</p>
+						<p>Desde 2006 presta sus servicios en Morton, Casa de Subastas habi&eacute;ndose desempe&ntilde;ado como Gerente del departamento de Empe&ntilde;os y actualmente coordinando los departamentos de Joyer&iacute;a, Vinos y Libros.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
@@ -65,7 +66,7 @@
 				<div class="staff-box">
 					<img src="/images/staff/lafforgue-roxana.jpg" width="153" height="200">
 					<h3>Roxana Lafforgue</h3>
-					<p>Despu&eacute;s de una carrera en la administraci&oacute;n tur&iacute;stica, Roxana decidi&oacute; cambiar por algo que fuese solo  de su gusto y encontr&oacute; la joyer&iacute;a; m&aacute;s espec&iacute;ficamente la gemolog&iacute;a. Egresada del Gemological Institute of America (GIA) en California, USA con el t&iacute;tulo de Graduate Jeweler Gemologist, G.J.G., (Gem&oacute;loga Joyera Graduada), se dedic&oacute; al dise&ntilde;o y producci&oacute;n de piezas &uacute;nicas como negocio propio y realiz&oacute; una maestr&iacute;a en direcci&oacute;n. Posteriormente trabaj&oacute; en Estados Unidos en la joyer&iacute;a de Patrimonio de Alta Calidad y Lujo. A sui regreso a M&eacute;xico, ingres&oacute; el 4 de enero de 2010 en Morton Casa de Subastas.</p>
+					<p>Despu&eacute;s de una carrera en la administraci&oacute;n tur&iacute;stica, Roxana decidi&oacute; cambiar por algo que fuese solo  de su gusto y encontr&oacute; la joyer&iacute;a; m&aacute;s espec&iacute;ficamente la gemolog&iacute;a. Egresada del Gemological Institute of America (GIA) en California, USA con el t&iacute;tulo de Graduate Jeweler Gemologist, G.J.G., (Gem&oacute;loga Joyera Graduada), se dedic&oacute; al dise&ntilde;o y producci&oacute;n de piezas &uacute;nicas como negocio propio y realiz&oacute; una maestr&iacute;a en direcci&oacute;n. Posteriormente trabaj&oacute; en Estados Unidos en la joyer&iacute;a de Patrimonio de Alta Calidad y Lujo. A su regreso a M&eacute;xico, ingres&oacute; el 4 de enero de 2010 en Morton Casa de Subastas.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
