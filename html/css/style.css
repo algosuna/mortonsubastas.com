@@ -704,6 +704,18 @@ footer .row div:nth-child(2) {
 #catalogs h2 {
 	margin: 0 0 40px 0;
 }
+#catalogs .catgroup {
+	max-width: 993px;
+	margin: 0 auto;
+}
+#catalogs .cat {
+	padding: 25px;
+	float: left;
+}
+#catalogs .catgroup ~ .cat {
+	float: none;
+	margin: 0 auto
+}
 #catalogs .cat img {
 	display: block;
 	width: 281px;
@@ -730,6 +742,17 @@ footer .row div:nth-child(2) {
 		max-width: 150%;
 	}
 }
+@media (max-width: 1092px) {
+	#catalogs .catgroup {
+		width: 662px;
+	}
+	#catalogs .catgroup ~ .cat {
+		width: 281px;
+		float: left;
+		padding: 25px;
+		margin: 0;
+	}
+}
 @media (max-width: 877px) {
 	#slider ol.carousel-indicators {
 		display: none;
@@ -743,6 +766,14 @@ footer .row div:nth-child(2) {
 @media (max-width: 767px) {
 	#video p{
 		margin-top: 20px;
+	}
+	#catalogs .catgroup {
+		width: 331px;
+	}
+	#catalogs .catgroup ~ .cat {
+		float: none;
+		margin: 0 auto;
+		padding: 25px 0;
 	}
 }
 @media (max-width: 399px) {
