@@ -863,15 +863,16 @@ footer .row div:nth-child(2) {
 .staff {
 	display: block;
 	width: 50%;
-	float: left;
 	padding: 25px;
 
 }
 .staff:nth-child(odd) {
 	padding-right: 0;
+	float: right;
 }
 .staff:nth-child(even) {
 	padding-left: 0;
+	float: left;
 }
 .staff-box {
 	border: 1px solid rgb(167, 169, 172);
