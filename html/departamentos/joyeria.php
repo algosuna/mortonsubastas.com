@@ -93,21 +93,29 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
-					<h3>Pork Loin</h3>
-					<h4>Bacon Specialist</h4>
-					<h5>10 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<img src="/images/staff/rojas-alejandra.jpg" width="153" height="200">
+					<h3>Alejandra Rojas</h3>
+					<p>Licenciada en Economía por la Universidad Nacional Autónoma de México. Con una trayectoria de 18 años en el sector financiero. Desde 2006 presta sus servicios en Morton, Casa de Subastas habiéndose desempeñado como Gerente del departamento de Empeños y actualmente coordinado los departamentos de Joyería, Vinos y Libros.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
-					<h3>Sirloin Salami</h3>
-					<h4>Drumstick Specialist</h4>
-					<h5>11 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<img src="/images/staff/suari-alejandro.jpg" width="153" height="200">
+					<h3>Alejandro Suari</h3>
+					<p>Alejandro Suari curso la carrera de Perito Valuador en el Instituto Tecnológico de Estudios Superiores de Monterrey, cuenta con la especialidad de Graduador de Diamantes por HRD Amberes, Bélgica y un Diplomado en Apreciación de Arte.</p>
+					<p>Se desempeñó como Subdirector Técnico de Valuación en el Monte de Piedad en la Ciudad de Puebla.</p>
+					<p>Colaboró en MET MEX PEÑOLES coordinando los ensayes en las practicas para el análisis de aleaciones y en los procesos de fundición y análisis de metales.</p>
+					<p>Cuenta con dos años de trayectoría en Morton, Casa de Subastas.</p>
+				</div><!-- end .staff-box -->
+			</div><!-- end .staff -->
+
+			<div class="staff">
+				<div class="staff-box">
+					<img src="/images/staff/hinojosa-david.jpg" width="153" height="200">
+					<h3>David Hinojosa Rangel</h3>
+					<p>Es Perito Valuador Egresado del  Instituto de Valuadores del Nacional Monte de Piedad Certificado por el HRD (Amberes, Bélgica); cuenta con Diplomado en Gemología de la Facultad de Ingeniería de la  Universidad Nacional Autónoma de México y un  Diplomado en Arte por el Instituto Tecnológico de Estudios Superiores de Monterrey.</p>
+					<p>Con una trayectoría de veintiseis años en instituciones como el Nacional Monte de Piedad, Fundación Social Monte Pio Guadalajara Jalisco y Morton, Casa de Subastas.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 

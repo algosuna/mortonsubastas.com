@@ -45,7 +45,7 @@
 			<div class="staff">
 				<div class="staff-box">
 					<img src="/images/staff/lopezmorton-eduardo.jpg" width="153" height="200">
-					<h3>Eduardo Lopez-Morton</h3>
+					<h3>Eduardo L&oacute;pez-Morton</h3>
 					<p> Licenciado en Relaciones Internacionales con un Diplomado en Historia del Arte por la Universidad Anahuac Norte. Curs&oacute; el programa de Art and its markets en Sotheby's Londres y colabor&oacute; en la casa de subastas Wooley and Wallis en Salisbury Inglaterra.</p>
 					<p>Desde 2006 es colaborador en Morton, Casa de Subastas. Ha fungido como martillero en mas de 250 subastas a nivel nacional e internacional.</p>
 				</div><!-- end .staff-box -->
