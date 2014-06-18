@@ -5,9 +5,9 @@
 				&copy;2014 Morton Casa de Subastas<br />
 				<li class="hidden-xs"><a href="/terminos-condiciones.php">T&eacute;rminos y Condiciones</a></li>
 				<li class="hidden-xs"><a href="/aviso-privacidad.php">Aviso de Privacidad</a></li>
-				<li><a href="#">Subastas en L&iacute;nea</a></li>
-				<li class="hidden-xs"><a href="#">Mi Morton</a></li>
-				<li><a href="#">Registro</a></li>
+				<li><a href="http://www.liveauctioneers.com/morton-casa-de-subastas" target="_blank">Subastas en L&iacute;nea</a></li>
+				<li class="hidden-xs"><a href="/mimorton.php">Mi Morton</a></li>
+				<li><a href="/registro.php">Registro</a></li>
 				<li><a href="/ayuda.php">Ayuda</a></li>
 			</ul><!-- end #footer-links -->
 		</div><!-- end .col-md-4 -->
