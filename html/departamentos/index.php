@@ -1,4 +1,3 @@
-<?php //require 'http://mortonsubastas.andyosuna.com/php/parse-interior.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

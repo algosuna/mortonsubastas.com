@@ -1,7 +1,3 @@
-<?php 
-//include_once 'http://mortonsubastas.andyosuna.com/php/parse-interior.php';
-//$pageId = "art";
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
