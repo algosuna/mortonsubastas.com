@@ -117,6 +117,13 @@ h2 small {
 p {
 	text-align: justify;
 }
+blockquote > footer {
+	display: block;
+	width: 100%;
+	background-color: transparent;
+	position: relative;
+	height: auto;
+}
 
 /* 0.3 - Other */
 *:focus {
@@ -225,6 +232,7 @@ nav > ul > li:last-child {
 }
 nav > ul > li.dropdown:hover ul.dropdown-menu {
 	display: block; /* shows the dropdown on hover */
+	top: 40px;
 }
 header a,
 header a:link,
@@ -901,13 +909,13 @@ footer .row div:nth-child(2) {
 	padding: 25px;
 
 }
-.staff:nth-child(odd) {
-	padding-right: 0;
-	float: right;
-}
-.staff:nth-child(even) {
+.staff:nth-of-type(odd) {
 	padding-left: 0;
 	float: left;
+}
+.staff:nth-of-type(even) {
+	padding-right: 0;
+	float: right;
 }
 .staff-box {
 	border: 1px solid rgb(167, 169, 172);
@@ -932,7 +940,7 @@ footer .row div:nth-child(2) {
 @media (max-width: 819px) {
 	.staff {
 		width: 100%;
-		padding: 25px 0;
+		padding: 25px 0 !important;
 	}
 }
 

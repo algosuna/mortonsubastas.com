@@ -6,13 +6,19 @@
 	<title>Morton Casa de Subastas - Antig&uuml;edades</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<style>
+	.staff:nth-of-type(3) {
+		padding: 25px 25px 0 0;
+		clear: both;
+	}
+	</style>
 </head>
 
 <body>
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="/images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-antiguedades.jpg">
 	</section>
 
 	<div id="content">
@@ -55,8 +61,7 @@
 				<div class="staff-box">
 					<img src="/images/staff/aguilar-miguel.jpg" width="153" height="200">
 					<h3>Miguel Aguilar Trejo</h3>
-					<p>Estudi&oacute; la carrera de Arqueolog&iacute;a en la Escuela Nacional de Antropolog&iacute;a e Historia.</p>
-					<p>Combin&oacute; sus estudios con su trabajo como colaborador en el Proyecto Arqueol&oacute;gico de Xochimilco (Salvamento Arqueol&oacute;gico) durante 3 a&ntilde;os.</p>
+					<p>Estudi&oacute; la carrera de Arqueolog&iacute;a en la Escuela Nacional de Antropolog&iacute;a e Historia. Combin&oacute; sus estudios con su trabajo como colaborador en el Proyecto Arqueol&oacute;gico de Xochimilco (Salvamento Arqueol&oacute;gico) durante 3 a&ntilde;os.</p>
 					<p>Desde 1998 ha colaborado en el Departamento de Antig&uuml;edades de Morton Casa de Subastas como valuador y catalogador.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->

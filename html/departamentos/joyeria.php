@@ -12,7 +12,7 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="/images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-joyeria.jpg">
 	</section>
 
 	<div id="content">
@@ -27,9 +27,9 @@
 
 		<section class="cont">
 
-			<h2 class="align-left">PERMITA QUE SUS JOYAS BRILLEN EN SUBASTA</h2>
+			<h2 class="align-left">Permita que sus Joyas Brillen en Subasta</h2>
 
-			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
+			<img src="/images/cont-joyeria.jpg" width="306" height="198" class="pull-right">
 			<p>En el departamento de Joyer&iacute;a y Relojes nos dedicamos a consignar todo tipo alhajas y relojes. Pueden ser antiguos, de &eacute;poca, modernos o actuales. Piezas de importante precio y piezas muy accesibles en buen estado de conservaci&oacute;n.</p>
 			<p>Por varias razones, hoy en d&iacute;a la subasta es la mejor opci&oacute;n para vender sus joyas. En una sola visita usted puede resolver sobre sus piezas, no requiere estarlas ofreciendo con las molestias y riesgos que &eacute;sto conlleva. La comodidad y seguridad que tiene al presentar sus objetos de valor a un grupo de profesionales que le tratar&aacute;n con conocimiento y respeto. Sus joyas y relojes se ofrecer&aacute;n para venderlas al mejor postor.</p>
 			<p>Para consignar, por favor haga una cita a su conveniencia, durante la cual revisaremos la pieza, haremos un aval&uacute;o y repasaremos las condiciones para entrar a subasta. De estar de acuerdo, firmaremos un contrato.</p>

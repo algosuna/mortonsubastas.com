@@ -6,6 +6,12 @@
 	<title>Morton Casa de Subastas - Oportunidades: Artes Decorativas</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<style>
+	.staff:nth-of-type(3) {
+		padding: 25px 25px 0 0;
+		clear: both;
+	}
+	</style>
 </head>
 
 <body>

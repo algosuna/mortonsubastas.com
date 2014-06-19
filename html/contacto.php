@@ -66,7 +66,7 @@
 								<?php if ($valid == false) echo ($msErr); ?>
 							</li>
 							<li>
-								<button class="btn-morton submit" type="submit">Enviar!</button>
+								<button class="btn-morton submit" type="submit">&iexcl;Enviar!</button>
 								<input type="hidden" name="did_send" value="true" />
 							</li>
 						</ul><!-- end ul -->

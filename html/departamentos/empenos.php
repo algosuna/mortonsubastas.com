@@ -6,7 +6,7 @@
 	<title>Morton Casa de Subastas - Empe&ntilde;os</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
-	<style type="text/css">
+	<style>
 	table tr td:first-of-type {
 		font-weight: bold;
 	}

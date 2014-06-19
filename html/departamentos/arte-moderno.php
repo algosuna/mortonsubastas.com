@@ -6,13 +6,19 @@
 	<title>Morton Casa de Subastas - Arte Moderno</title>
 
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-css.php'; ?>
+	<style>
+	.staff:nth-of-type(3) {
+		padding: 25px 25px 0 0;
+		clear: both;
+	}
+	</style>
 </head>
 
 <body>
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="/images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-artemoderno.jpg">
 	</section>
 
 	<div id="content">

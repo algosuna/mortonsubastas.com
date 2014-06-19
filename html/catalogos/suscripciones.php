@@ -21,14 +21,6 @@
 
 	<div id="content">
 
-		<h1>Subscripciones</h1>
-
-		<ol class="breadcrumb">
-			<li><a href="/">Inicio</a></li>
-			<li><a href="/catalogos/">Cat&aacute;logos</a></li>
-			<li class="active">Subscripciones</li>
-		</ol>
-
 		<section class="cont">
 
 			<img src="/images/info-suscripciones.jpg" width="784" height="758">

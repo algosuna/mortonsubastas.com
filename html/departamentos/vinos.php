@@ -12,7 +12,7 @@
 	<?php include 'http://mortonsubastas.andyosuna.com/php/include-header.php'; ?>
 
 	<section id="banner">
-		<img src="/images/banners/dep-arte-moderno.jpg">
+		<img src="/images/banners/dep-vinos.jpg">
 	</section>
 
 	<div id="content">
@@ -27,59 +27,14 @@
 
 		<section class="cont">
 
-			<h2 class="align-left">Descripci&oacute;n</h2>
-
-			<img src="/images/cont-sample.jpg" width="306" height="198" class="pull-right">
-			<p>Bacon ipsum dolor sit amet turkey tail pork belly, rump tenderloin ham t-bone pork. Andouille swine tail pork loin ball tip ham ham hock sirloin beef doner tri-tip. Pork loin strip steak kevin frankfurter flank.</p>
-			<p>Bacon kevin strip steak, pancetta hamburger frankfurter andouille kielbasa meatloaf jerky shoulder cow ground round prosciutto. Beef ribs sausage doner tongue chicken.</p>
-
+			<img src="/images/cont-vinos.jpg" width="306" height="198" class="pull-right">
+			<blockquote>
+				<p>Un buen vino es como una buena pel&iacute;cula: dura un instante y te deja en la boca un sabor a gloria; es nuevo en cada sorbo y , como ocurre con las pel&iacute;culas, nace y renace en cada saboreador.</p>
+				<footer>Federico Fellini.</footer>
+			</blockquote>
+			<p>Nuestras subastas de Vinos y Destilados son una gran oportunidad para adquirir piezas de las mejores casas y cosechas, no &uacute;nicamente para coleccionarlos, tambi&eacute;n para acompa&ntilde;ar momentos especiales a lado de sus seres queridos.</p>
 
 		</section>
-
-		<hr>
-
-		<section class="cont">
-
-			<h2 class="align-left">Pr&oacute;ximos Eventos</h2>
-
-			<div class="table-responsive">
-				<table class="table">
-					<thead>
-						<tr>
-							<th>&nbsp;</th>
-							<th>Evento</th>
-							<th>Fecha</th>
-							<th>Hora</th>
-							<th>Lugar</th>
-							<th>Descripci&oacute;n</th>
-						</tr>
-					</thead><!-- end thead -->
-					<tbody>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><img src="/images/upcoming/vnt-latinoamericana.jpg" width="200" height="133" alt="Subasta de Arte Latinoamericano"></td>
-							<td>Subasta de Arte Latinoamericano</td>
-							<td>Jueves, 29 de Mayo</td>
-							<td>19:00</td>
-							<td>Monte Athos 179</td>
-							<td>
-								<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami.</p>
-							</td>
-						</tr>
-					</tbody><!-- end tbody -->
-				</table><!-- end .table -->
-			</div><!-- end .table-responsive -->
-
-		</section><!-- end .cont -->
 
 		<hr>
 
@@ -89,21 +44,9 @@
 
 			<div class="staff">
 				<div class="staff-box">
-					<img src="/images/staff/loin-pork.jpg" width="153" height="200">
-					<h3>Pork Loin</h3>
-					<h4>Bacon Specialist</h4>
-					<h5>10 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
-				</div><!-- end .staff-box -->
-			</div><!-- end .staff -->
-
-			<div class="staff">
-				<div class="staff-box">
-					<img src="/images/staff/salami-sirloin.jpg" width="153" height="200">
-					<h3>Sirloin Salami</h3>
-					<h4>Drumstick Specialist</h4>
-					<h5>11 Years</h5>
-					<p>Bacon ipsum dolor sit amet sirloin salami prosciutto drumstick shank beef pastrami chuck ball tip filet mignon corned beef pork belly bresaola pork meatloaf.</p>
+					<img src="/images/staff/villa-antonio.jpg" width="153" height="200">
+					<h3>Antonio Villa</h3>
+					<p>A pesar de su juventud Antonio cuenta ya con 7 a&ntilde;os de experiencia en Morton, Casa de Subastas. Bajo la tutela de Jes&uacute;s Cruz, nuestro colaborador m&aacute;s experimentado, ha aprendido los procesos de la organizaci&oacute;n de una subasta. Actualmente se desempe&ntilde;a como Encargado del Departamento de Vinos y Licores, siendo responsable tanto de la valuaci&oacute;n como de la catalogaci&oacute;n.</p>
 				</div><!-- end .staff-box -->
 			</div><!-- end .staff -->
 

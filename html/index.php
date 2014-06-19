@@ -29,7 +29,7 @@
 			<div class="item active">
 				<img src="/images/slides/slide-1.jpg" alt="Subasta de Libros">
 				<div class="carousel-caption">
-					<h3>Subasta de Grabados, Fotograf&iacute;a, Documentos y Libros Antiguos y Contempor&aacute;neos.</h3>
+					<h3>Subasta de Libros y Documentos</h3>
 					<p>(Incluye una selecci&oacute;n de documentos de la biblioteca ecl&eacute;ctica MONCLAU, y otra de literatura de la Biblioteca de Ricardo Garibay). <br> Mi&eacute;rcoles 25 de Junio de 2014, 19:00 hrs.</p>
 				</div>
 			</div>
@@ -62,11 +62,11 @@
 				<h2>VIdeo Destacado</h2>
 				<div class="carousel-slide" id="video-slider" data-ride="carousel">
 					<ol class="carousel-indicators">
-						<li data-target="#video-slider" data-slide-to="0"></li>
+						<li data-target="#video-slider" data-slide-to="0" class="active"></li>
 						<li data-target="#video-slider" data-slide-to="1"></li>
 					</ol>
 					<div class="carousel-inner">
-						<div class="row item">
+						<div class="row item active">
 							<div class="col-sm-6">
 								<iframe src="//www.youtube.com/embed/y5XZppDsk0A" frameborder="0" allowfullscreen></iframe>
 							</div><!-- end .col-sm-6 -->
@@ -77,11 +77,10 @@
 						</div><!-- end .row -->
 						<div class="row item">
 							<div class="col-sm-6">
-								<!-- TODO: add youtube video iframe or something -->
-								<img src="/images/yt-thumbnail.jpg" alt="YouTube Video" style="margin:0 auto;width:100%">
+								<iframe src="//www.youtube.com/embed/8GGK-2-VKRg" frameborder="0" allowfullscreen></iframe>
 							</div><!-- end .col-sm-6 -->
 							<div class="col-sm-6">
-								<p class="large">asdfasdfDrumstick kielbasa kevin short ribs sirloin fatback landjaeger pork chop shoulder filet mignon meatball. Pork sirloin frankfurter biltong pork loin tenderloin.</p>
+								<p class="large">Todos los s&aacute;bados, en el sal&oacute;n Moliere, se llevan a cabo las Subastas de Oportunidades. Excelente opci&oacute;n para los compradores que desean adquirir sus primeras piezas en subasta, sentir la experiencia, y encontrar objetos &uacute;nicos y originales a precios incre&iacute;bles.</p>
 							</div><!-- end .col-sm-6 -->
 						</div><!-- end .row -->
 					</div><!-- end .carousel-inner -->
