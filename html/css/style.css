@@ -230,9 +230,11 @@ nav ul.dropdown-menu > li > a:active {
 nav > ul > li:last-child {
 	padding-right: 0;
 }
+nav > ul > li.dropdown ul.dropdown-menu {
+	top: 40px;	
+}
 nav > ul > li.dropdown:hover ul.dropdown-menu {
 	display: block; /* shows the dropdown on hover */
-	top: 40px;
 }
 header a,
 header a:link,
