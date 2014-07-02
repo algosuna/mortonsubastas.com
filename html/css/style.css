@@ -65,10 +65,6 @@ Date: May, 2014
 	5.4 - Contact Responsiveness
 	5.5 - iOS Bug Fixes
 
-6. - Legal: Styles specific to the legal pages.
-	6.1 - Terminos y Condiciones
-	6.2 - Aviso de Privacidad
-
 *********************************************************
 ********************************************************/
 
@@ -162,14 +158,14 @@ ol.breadcrumb {
 	float: left;
 	background-color: rgb(193, 216, 47);
 	-webkit-transition: background-color .15s ease-in;
-	   -moz-transition: background-color .15s ease-in;
-	  	 -o-transition: background-color .15s ease-in;
-	  	 	transition: background-color .15s ease-in;
+		 -moz-transition: background-color .15s ease-in;
+			 -o-transition: background-color .15s ease-in;
+					transition: background-color .15s ease-in;
 	padding: 0px;
 	margin: 0px;
 	-webkit-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
-	   -moz-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
-			box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
+		 -moz-box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
+					box-shadow: inset 0px -2px 0px 0px rgb(140, 159, 29);
 	border: none;
 	cursor: pointer;
 }
@@ -1114,47 +1110,4 @@ footer .row div:nth-child(2) {
 .touchfix #banner {
 	position: absolute;
 	overflow: hidden;
-}
-
-
-/*
-
-6. - Legal
-
-*/
-/* 6.1 - Terminos y Condiciones */
-.term > ol > li {
-	list-style-type: upper-roman;
-	font-size: 35px;
-	color: rgb(0, 77, 67);
-	font-weight: 200;
-}
-.term > ol > li > h2 {
-	margin: 20px 0 10px 0;
-}
-.term > ol > li > ol,
-.term > ol > li p,
-.term > ol > li > ul {
-	font-size: 14px;
-	color: rgb(88, 89, 91);
-	font-weight: normal;
-}
-.term > ol > li > ul {
-	list-style-type: disc;
-	margin-bottom: 10px;
-}
-.term > ol > li > ol > li {
-	margin: 10px 0;
-	line-height: 16px;
-}
-
-/* 6.2 - Aviso de Privacidad */
-.avis h2:first-of-type {
-	margin-top: 0px;
-}
-.avis h2 {
-	margin: 20px 0 10px 0;
-}
-.avis ol {
-	list-style-type: lower-roman;
 }
